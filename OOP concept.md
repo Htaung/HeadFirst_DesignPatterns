@@ -57,8 +57,11 @@ I
  - Base class or parent class ကို generalized classes လို.ေခၚၿပီးေတာ့   child class ကိုေတာ့ specialized class လို.ေခၚပါတယ္။
  - Conceptual modelling လုပ္မယ္ဆုိရင္ base class နဲ. drived class (child class) ဟာ taxonomy အရတူရမွာပါ
  - ဥပမာ Teacher, Doctor နဲ. Human ဆုိတာဟာ taxonomy အရတူပါတယ္။ Hierarchical relationship ရွိတာကိုေၿပာခ်င္တာပါ။ Teacher, Doctor သည္ is a kind of Human ပါပဲ။
+ - Taxonomy အရ မတူဘူးဆုိရင္ Generalization Specialization မလုပ္သင့္ပါဘူ;
+ -  ဥပမာ Bird နဲ. Aeroplane သည္ ပ်ံတာခ်င္းတူေပမဲ့ သူတုိ.ကို Inheritance နဲ.ခ်ိတ္လို.မရပါဘူ;
+ - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTc2OTE2NTcsLTEyNDA5Mzc0NzYsMT
+eyJoaXN0b3J5IjpbLTE3NzQyNjQzNDEsLTEyNDA5Mzc0NzYsMT
 M1ODY3MTU2MywzNTYzMjgzOTksLTExMTYyNjMyNjhdfQ==
 -->
