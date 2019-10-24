@@ -25,10 +25,15 @@ Assembly -> data structure နဲ. algorithm ေတြေရးလုိ.အဆ�
 Procedural language -> fuction ေတြခြဲေရးမယ္, reusable ၿဖစ္ေအာင္လုပ္မယ္ -> ေနာက္က်ေတာ့ data abstraction ကိုထဲ့လာပါတယ္
 </pre>
 
-<h2>### Data Abstraction</h2>
-
+<h2>Data Abstraction</h2>
+<p>
+custom data type ေတြ create လုပ္ခြင့္ေပးထားတာကိုေၿပာတာပါ။ ဥပမာ Stack, LinkedList ဆုိတာမ်ိဳးကို data type တခုအေနနဲ.ကုိယ္ပုိင္ ဖန္တီးလို.ရမယ္။ ၿပန္သံုးလုိ.ရမယ္ ဒါကို data abstraction လို.ေၿပာလုိ.ရပါတယ္။
+<pre>
+	C => truct, enum, class
+</pre>
+</p>
 <h2>Inheritance</h2>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDIzODQwMzYzLDEzNTg2NzE1NjMsMzU2Mz
+eyJoaXN0b3J5IjpbMjkwMzUxODMxLDEzNTg2NzE1NjMsMzU2Mz
 I4Mzk5LC0xMTE2MjYzMjY4XX0=
 -->
