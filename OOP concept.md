@@ -85,8 +85,15 @@ Java programmer ေတာ္ေတာ္မ်ားမ်ား က abstract cl
    
 Dynamic language ေတြမွာ duck typing ကိုေပးထားတဲ့အတြက္ အဲ့လိုေခၚလို.ရပါတယ္။
 </p>
+
+## Normal class နဲ. abstract class ဘယ္လို usage ခြဲမလဲေပါ့ ။
+
+ - Parent ကေနပဲ child က code ေတြကို one direction ေခၚခ်င္ရင္ hook   အေနနဲ.ထားခ်င္ရင္ abstract class ကုိသံုးပါတယ္
+ - မဟုတ္ရင္ both direction ေခၚခ်င္ရင္ေတာ့ normal class ကိုသံုးၿပီး model   လုပ္လုိ.ရပါတယ္။
+
+### Inheritance as incremental program modification
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTIwNDE1MjQsLTE3NzQyNjQzNDEsLT
-EyNDA5Mzc0NzYsMTM1ODY3MTU2MywzNTYzMjgzOTksLTExMTYy
-NjMyNjhdfQ==
+eyJoaXN0b3J5IjpbODM2MDI4MTQxLC0xNzc0MjY0MzQxLC0xMj
+QwOTM3NDc2LDEzNTg2NzE1NjMsMzU2MzI4Mzk5LC0xMTE2MjYz
+MjY4XX0=
 -->
