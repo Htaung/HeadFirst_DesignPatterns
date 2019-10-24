@@ -69,13 +69,22 @@ Inheritance လို conceptualization လုပ္ေပးႏုိင္တ�
 Java programmer ေတာ္ေတာ္မ်ားမ်ား က abstract class နဲ. interface ဘာကြာလဲေမးလိုက္ရင္ ေရေရရာရာကဲြၿပားတဲ့အေၿဖကို မေၿဖႏိုင္ၾကပါဘူး။ 
 </h4>
 
+<p>
  - အဓိက ကြာၿခားခ်က္က taxonomy တူမယ္ဆုိရင္ abstract class ကိုသံုးၿပီး
    inheritance နဲ.ေၿဖရွင္းမယ္
  - မတူဘူးဆုိရင္ subtyping ကုိ သံုးၿပီၤး interface နဲ. design လုပ္ရမွာပါ။
-
-
+ 
+ - ဥပမာ work ဆုိတဲ့ method ကို polymorphic ၿဖစ္ေအာင္လုပ္ခ်င္တယ္ဆုိပါစုိ.
+   Teacher မွာေရာ Doctor မွာေရာ လုပ္ခ်င္တာဆုိရင္ သူတုိ. ၂ခုဟာ taxonomy
+   အရတူတဲ့အတြက္ abstract class ဒါမွမဟုတ္ ရိုးရိုး class သံုးၿပီး
+   inheritance နဲ. model လုပ္ရမွာပါ။
+ - Fly ဆုိတဲ့ method ကို Bird နဲ. Aeroplane အတြက္ polymorphism
+   လုပ္ခ်င္တယ္ဆုိရင္ သူတုိ. ၂ ခုဟာ taxonomy မတူတဲ့အတြက္ Flyable ဆိုတဲ့
+   interface တခုထားၿပီး model လုပ္ရမွာပါ။ Static type language ေတြမွာ
+   polymorphic operation ေတြလုပ္ဖုို. subtype ေတြၿဖစ္မွ လုပ္လို.ရပါတယ္
+</p>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzNDEwODg2LC0xNzc0MjY0MzQxLC0xMj
-QwOTM3NDc2LDEzNTg2NzE1NjMsMzU2MzI4Mzk5LC0xMTE2MjYz
-MjY4XX0=
+eyJoaXN0b3J5IjpbLTE3Nzg5MDQzODEsLTE3NzQyNjQzNDEsLT
+EyNDA5Mzc0NzYsMTM1ODY3MTU2MywzNTYzMjgzOTksLTExMTYy
+NjMyNjhdfQ==
 -->
