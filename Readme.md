@@ -3,7 +3,8 @@ Base on GOLF
 <pre>
 <h1> Design Principles </h1>
 
-<h2>1. Identify the aspects of your application that vary and separate them from what stays thesame. </h2>
+<h2>1.Identify the aspects of your application that vary and 
+	separate them from what stays the same. </h2>
 <P>
 Separating what changes from what stays the same
 </P>
