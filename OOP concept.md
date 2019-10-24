@@ -52,11 +52,13 @@ Inheritance ရဲ. major usage က ၂ခု =>
 ## Inheritance as conceptual modelling
 I
 
- - nheritance ကို Generalization, Specialization အတြက္သံုးၿပီဆုိရင္ ဒါဟာ
+ - Inheritance ကို Generalization, Specialization အတြက္သံုးၿပီဆုိရင္ ဒါဟာ
    inheritance as coneptual modelling ပါ။
+ - Base class or parent class ကို generalized classes လို.ေခၚၿပီးေတာ့   child class ကိုေတာ့ specialized class လို.ေခၚပါတယ္။
+ - Conceptual modelling လုပ္မယ္ဆုိရင္ base class နဲ. drived class (child class) ဟာ taxonomy အရတူရမွာပါ
+ - ဥပမာ Teacher, Doctor နဲ. Human ဆုိတာဟာ taxonomy အရတူပါတယ္။ Hierarchical relationship ရွိတာကိုေၿပာခ်င္တာပါ။ Teacher, Doctor သည္ is a kind of Human ပါပဲ။
 
-Base class or parent class ကို generalized classes လို.ေခၚၿပီးေတာ့ child class ကိုေတာ့ specialized class လို.ေခၚပါတယ္။
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTg3ODU2LC0xMjQwOTM3NDc2LDEzNT
-g2NzE1NjMsMzU2MzI4Mzk5LC0xMTE2MjYzMjY4XX0=
+eyJoaXN0b3J5IjpbLTEyOTc2OTE2NTcsLTEyNDA5Mzc0NzYsMT
+M1ODY3MTU2MywzNTYzMjgzOTksLTExMTYyNjMyNjhdfQ==
 -->
