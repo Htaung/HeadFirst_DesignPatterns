@@ -36,12 +36,7 @@ a.makeSound(); // We don’t know WHAT the actual animal subtype is... all we ca
 program to a supertype” as “the declared type of the variables should be a supertype,
 usually an abstract class or interface, so that the objects assigned to those
 variables can be of any concrete implementation of the supertype, which
-means the class declaring them doesn’t have to know about the actual object
-<<<<<<< HEAD
-types!
-=======
-types!”
->>>>>>> f6a3849e764b21fa8c225c6d23d8d69254d8d833
+means the class declaring them doesn’t have to know about the actual object types!”
 
 </p>
 
