@@ -4,8 +4,7 @@ https://www.facebook.com/notes/thet-khine/gentle-introduction-to-object-oriented
 
 <pre>
 <h2>Gentle Introduction to Object Oriented Programming Part 1</h2>
-<p>
- Language တခုကိုေလ့လာတဲ့အခါမွာ element ၃ ခုကိုေလ့လာရပါတယ္။ Syntax, Semantic နဲ. Pragmatic တို.ၿဖစ္ပါတယ္။
+Language တခုကိုေလ့လာတဲ့အခါမွာ element ၃ ခုကိုေလ့လာရပါတယ္။ Syntax, Semantic နဲ. Pragmatic တို.ၿဖစ္ပါတယ္။
  <code>
 		Syntax => language basic component ေတြကို ဘယ္လုိေရးရတာလဲဆုိတဲ့ Grammar ပါ။ ဥပမာ for loop ပတ္ရင္ဘယ္လိုေရးရသလဲေပါ့။
 		Semantic => for loop ေရးထားရင္ for loop ကဘယ္လုိအလုပ္လုပ္မလဲဆုိတဲ့ တိက်တဲ့အဓိပၸာယ္ကို ဆုိခ်င္တာပါ။ ဥပမာ for initialization ရိွရင္ 
@@ -16,12 +15,12 @@ https://www.facebook.com/notes/thet-khine/gentle-introduction-to-object-oriented
 					 support ေပးတဲ့ language မွာ OO program ေတြကို ဘယ္လိုေရးရသလဲ ။ ဥပမာ ဘယ္အခ်ိန္မွာ inheritance ကုိသံုးလဲ ရုိးရုိး class 
 					 ကုိသံုးရမွာလား abstract class ကုိသံုးရမွာလား abstract class နဲ. interface usage ဘယ္လိုကြာလဲ ဘယ္ေနရာဘယ္သူ.ကိုသံုးရမွာ 
 					 correct usage က ဘာေတြလဲ ဒါေတြကို ဆုိခ်င္တာပါ။ Pragmatic ကုိအဆင့္ထပ္ၿမွင့္ရင္ေတာ့ design pattern ေတြ ,principle ေတြ ပါ ပါလာမွာပါ။ 
-</p>
+
 
 <h1>Evolution to OOP</h1>
 	
 
 <h1>Inheritance</h1>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTYyNjMyNjhdfQ==
+eyJoaXN0b3J5IjpbMTQxODAzODU1MSwtMTExNjI2MzI2OF19
 -->
