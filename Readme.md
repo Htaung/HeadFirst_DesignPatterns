@@ -10,7 +10,20 @@ Base on GOLF
 Separating what changes from what stays the same
 </P>
 
+
 <h2>2. Program to an interface, not an implementation </h2>
+<h3> Encapsulation နဲ. ပတ္သတ္တဲ့ OO Principle တခုရိွပါတယ္ အဲ့ဒါကေတာ့ Program to interface, not to implementation ပါ။</h3>
+<p>
+	 Program ေရးတဲ့အခါမွာ module ေတြ class ေတြဟာ သူမ်ားရဲ. implementation detail 
+	 ကိုမသိသင့္ မထိသင့္သလိုု. ကုိ.ဟာကုိလဲ expose မလုပ္သင့္ပါဘူး။ အၿပင္ကသံုးမဲ့ ကုိနဲ.တကယ္ interact ေပးလုပ္မဲ့ေကာင္ေတြကုိပဲ 
+	 public interface အေနနဲ.ထားေပးရမယ္ဆုိလုိတာပါ။ ဒါမွ maintenance ေကာင္းမွာပါ
+</p>
+<h3>Encapsulation နဲ.ပတ္သတ္တဲ့ တၿခား OO principle တခုကေတာ့ Open Close Principle ပါပဲ။ </h3>
+<p>
+	A module should be open for extension but closed for modification.
+Module ေတြ classes ေတြဟာ သူတုိ.ကုိ accidentally modified မလုပ္ႏိုင္ေအာင္ထားသင့္ၿပီးေတာ့ extend လုပ္ႏိုင္ေအာင္ေတာ့ ထားေပးရမယ္ဆိုတာပါ။ 
+Encapsulation ရဲ. central theme ကိုက close for modification ပါပဲ။
+</p>
 <p> 
 <code>	“Program to an interface” really means “Program to a supertype. </code>
 like using a polymorphic type
@@ -39,6 +52,16 @@ variables can be of any concrete implementation of the supertype, which
 means the class declaring them doesn’t have to know about the actual object types!”
 
 </p>
+<code>
+public class MallardDuck extends Duck{
 
+	//2. Program to an interface, not an implementation
+	//	 Should not program to an implementation, but 
+	//	 making new instance of concrete Quack Implementation
+	public MallardDuck() {
+		super();
+		this.quackBehaviour = new Quack(); // new instance of concrete Quack Implementation
+		this.flyBehaviour = new FlyWithWings();
+	}
 
 </pre>
