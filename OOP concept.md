@@ -59,9 +59,14 @@ I
  - ဥပမာ Teacher, Doctor နဲ. Human ဆုိတာဟာ taxonomy အရတူပါတယ္။ Hierarchical relationship ရွိတာကိုေၿပာခ်င္တာပါ။ Teacher, Doctor သည္ is a kind of Human ပါပဲ။
  - Taxonomy အရ မတူဘူးဆုိရင္ Generalization Specialization မလုပ္သင့္ပါဘူ;
  -  ဥပမာ Bird နဲ. Aeroplane သည္ ပ်ံတာခ်င္းတူေပမဲ့ သူတုိ.ကို Inheritance နဲ.ခ်ိတ္လို.မရပါဘူ;
- - 
+<code>
+Inheritance လို conceptualization လုပ္ေပးႏုိင္တဲ့ေနာက္တခုက ေတာ့ Subtyping ပါ။Subtyping ဆိုတာ programming lanaugag ကေနေပးထားတဲ့ feature ေတြကုိသံုးၿပီး type တခု သည္ အၿခား type တခုရဲ. subtype ၿဖစ္ပါတယ္ဆုိၿပီးသံုးတာပါ။ Base type ေနရာမွာ based type ကုိအေၿခခံထားတဲ့ တၿခား type ကုိအစားထိုးၿပီးသံုးလို.ရပါတယ္။ Subtyping ကို type polymorphism လို.လဲသံုးၾကပါေသးတယ္။
+
+ Java, C# တို.မွာဆုိရင္ interface construct ကိုထဲ့ေပးထားပါတယ္။ သူ.ကုိထဲ့ေပးထားရတဲ့အေၾကာင္းရင္းက conceptual modelling အရ taxonomy မတူတဲ့ေကာင္ေတြကုိ polymorphic လုပ္ခ်င္ရင္သံုးဖုိ.ပါ။
+</code>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzQyNjQzNDEsLTEyNDA5Mzc0NzYsMT
-M1ODY3MTU2MywzNTYzMjgzOTksLTExMTYyNjMyNjhdfQ==
+eyJoaXN0b3J5IjpbODI0MjcxMDMyLC0xNzc0MjY0MzQxLC0xMj
+QwOTM3NDc2LDEzNTg2NzE1NjMsMzU2MzI4Mzk5LC0xMTE2MjYz
+MjY4XX0=
 -->
