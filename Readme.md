@@ -6,9 +6,6 @@ Base on GOLF
 <h2>1.Identify the aspects of your application that vary and 
 	separate them from what stays the same. </h2>
 
-<h2>1. Identify the aspects of your application that vary and separate them 
-	from what stays thesame. </h2>
-
 <P>
 Separating what changes from what stays the same
 </P>
@@ -40,7 +37,11 @@ program to a supertype” as “the declared type of the variables should be a s
 usually an abstract class or interface, so that the objects assigned to those
 variables can be of any concrete implementation of the supertype, which
 means the class declaring them doesn’t have to know about the actual object
+<<<<<<< HEAD
 types!
+=======
+types!”
+>>>>>>> f6a3849e764b21fa8c225c6d23d8d69254d8d833
 
 </p>
 
