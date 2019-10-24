@@ -42,7 +42,10 @@ Inheritance ရဲ. major usage က ၂ခု =>
  - Inheirtance as conceptual modelling   
  - Inheritance as incremental  program modification
 
+(classification ဥပမာ လူဆုိတာ သတၱ၀ါ တိရစၦာန္ကလဲ သတၱ၀ါ) ၊ generalization (ဥပမာ car engine ကလဲစက္ motor engine ဆိုတာလဲ စက္)၊ grouping,composition အစရိွတာေတြနဲ.ေတြးေခၚၾကပါတယ္။ ခုနကေၿပာတဲ့ classification၊ generalization၊ specialization အစရွိတာေတြကုိ OO paradigm မွာ easiliy model လုပ္လုိ.ရပါတယ္။ classification ကို class contruct နဲ.လုပ္ၾကပါတယ္
+
+classification ကို => class contruct နဲ.လုပ္ၾကပါတယ္
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0NDA2Mzk1MCwtMTI0MDkzNzQ3NiwxMz
-U4NjcxNTYzLDM1NjMyODM5OSwtMTExNjI2MzI2OF19
+eyJoaXN0b3J5IjpbLTE2Njk1MTYwODEsLTEyNDA5Mzc0NzYsMT
+M1ODY3MTU2MywzNTYzMjgzOTksLTExMTYyNjMyNjhdfQ==
 -->
