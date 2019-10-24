@@ -50,8 +50,13 @@ Inheritance ရဲ. major usage က ၂ခု =>
  - Grouping နဲ. composition ကုိေတာ့ => class ေတြမွာ တၿခား classes ေတြရဲ.   reference variable ေတြထဲ့သြင္းၿခင္းအားၿဖင့္ သံုးၾကပါတယ္။
 
 ## Inheritance as conceptual modelling
+I
 
+ - nheritance ကို Generalization, Specialization အတြက္သံုးၿပီဆုိရင္ ဒါဟာ
+   inheritance as coneptual modelling ပါ။
+
+Base class or parent class ကို generalized classes လို.ေခၚၿပီးေတာ့ child class ကိုေတာ့ specialized class လို.ေခၚပါတယ္။
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyOTg2NzEyNSwtMTI0MDkzNzQ3NiwxMz
-U4NjcxNTYzLDM1NjMyODM5OSwtMTExNjI2MzI2OF19
+eyJoaXN0b3J5IjpbLTE0NTg3ODU2LC0xMjQwOTM3NDc2LDEzNT
+g2NzE1NjMsMzU2MzI4Mzk5LC0xMTE2MjYzMjY4XX0=
 -->
