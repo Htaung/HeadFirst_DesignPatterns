@@ -34,7 +34,8 @@ custom data type ေတြ create လုပ္ခြင့္ေပးထား�
 Primitive type ေတြကေန custom data type ဖန္တီးလို.ရမယ္ အဲ့ data type ကို maniuplate လုပ္ဖုိ. function ေတြ create လုပ္လုိ.ရမယ္ဆုိရင္ အဲ့ဒီ language ကို data abstraction ေပးတယ္လို.ေၿပာရမွာပါ။
 </p>
 <h2>Inheritance</h2>
+existing class တခုကေန code reuse or
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDA5Mzc0NzYsMTM1ODY3MTU2MywzNT
-YzMjgzOTksLTExMTYyNjMyNjhdfQ==
+eyJoaXN0b3J5IjpbLTExOTU1NzQ4NzQsLTEyNDA5Mzc0NzYsMT
+M1ODY3MTU2MywzNTYzMjgzOTksLTExMTYyNjMyNjhdfQ==
 -->
