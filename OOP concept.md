@@ -1,10 +1,12 @@
 
-Ref :
-https://www.facebook.com/notes/thet-khine/gentle-introduction-to-object-oriented-programming-part-1/10204990180393758/?fref=gs&dti=1500239026937924&hc_location=group
 
-<pre>
+## Ref : https://www.facebook.com/notes/thet-khine/gentle-introduction-to-object-oriented-programming-part-1/10204990180393758/?fref=gs&dti=1500239026937924&hc_location=group
+
+
 <h2>Gentle Introduction to Object Oriented Programming Part 1</h2>
+<p>
 Language တခုကိုေလ့လာတဲ့အခါမွာ element ၃ ခုကိုေလ့လာရပါတယ္။ Syntax, Semantic နဲ. Pragmatic တို.ၿဖစ္ပါတယ္။
+<pre>
  <code>
 		Syntax => language basic component ေတြကို ဘယ္လုိေရးရတာလဲဆုိတဲ့ Grammar ပါ။ ဥပမာ for loop ပတ္ရင္ဘယ္လိုေရးရသလဲေပါ့။
 		Semantic => for loop ေရးထားရင္ for loop ကဘယ္လုိအလုပ္လုပ္မလဲဆုိတဲ့ တိက်တဲ့အဓိပၸာယ္ကို ဆုိခ်င္တာပါ။ ဥပမာ for initialization ရိွရင္ 
@@ -22,5 +24,6 @@ Language တခုကိုေလ့လာတဲ့အခါမွာ element �
 
 <h1>Inheritance</h1>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxODAzODU1MSwtMTExNjI2MzI2OF19
+eyJoaXN0b3J5IjpbLTE2ODUxNjcxMDUsLTExMTYyNjMyNjhdfQ
+==
 -->
