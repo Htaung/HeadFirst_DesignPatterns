@@ -20,10 +20,9 @@ Pragmatic => language တခုရဲ. construct ေတြကို လက္ေ
 </pre>
 
 <h2>Evolution to OOP</h2>
-	
-
+Assembly -> 
 <h2>Inheritance</h2>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzODgzMjI4NywzNTYzMjgzOTksLTExMT
+eyJoaXN0b3J5IjpbMTQyNTU3MDY3NiwzNTYzMjgzOTksLTExMT
 YyNjMyNjhdfQ==
 -->
