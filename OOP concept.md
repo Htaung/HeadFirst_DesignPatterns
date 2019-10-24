@@ -67,14 +67,15 @@ Inheritance လို conceptualization လုပ္ေပးႏုိင္တ�
 
 <h4>
 Java programmer ေတာ္ေတာ္မ်ားမ်ား က abstract class နဲ. interface ဘာကြာလဲေမးလိုက္ရင္ ေရေရရာရာကဲြၿပားတဲ့အေၿဖကို မေၿဖႏိုင္ၾကပါဘူး။ 
-
- - အဓိက ကြာၿခားခ်က္က taxonomy တူမယ္ဆုိရင္ abstract class
-
-ကိုသံုးၿပီး inheritance နဲ.ေၿဖရွင္းမယ္ မတူဘူးဆုိရင္ subtyping ကုိ သံုးၿပီၤး interface နဲ. design လုပ္ရမွာပါ။
 </h4>
 
+ - အဓိက ကြာၿခားခ်က္က taxonomy တူမယ္ဆုိရင္ abstract class ကိုသံုးၿပီး
+   inheritance နဲ.ေၿဖရွင္းမယ္
+ - မတူဘူးဆုိရင္ subtyping ကုိ သံုးၿပီၤး interface နဲ. design လုပ္ရမွာပါ။
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0Njg3MzQ4NjMsLTE3NzQyNjQzNDEsLT
-EyNDA5Mzc0NzYsMTM1ODY3MTU2MywzNTYzMjgzOTksLTExMTYy
-NjMyNjhdfQ==
+eyJoaXN0b3J5IjpbMTQzNDEwODg2LC0xNzc0MjY0MzQxLC0xMj
+QwOTM3NDc2LDEzNTg2NzE1NjMsMzU2MzI4Mzk5LC0xMTE2MjYz
+MjY4XX0=
 -->
