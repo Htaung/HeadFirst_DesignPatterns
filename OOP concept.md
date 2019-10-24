@@ -25,8 +25,10 @@ Assembly -> data structure နဲ. algorithm ေတြေရးလုိ.အဆ�
 Procedural language -> fuction ေတြခြဲေရးမယ္, reusable ၿဖစ္ေအာင္လုပ္မယ္ -> ေနာက္က်ေတာ့ data abstraction ကိုထဲ့လာပါတယ္
 </pre>
 
+<h2>### Data Abstraction</h2>
+
 <h2>Inheritance</h2>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1ODY3MTU2MywzNTYzMjgzOTksLTExMT
-YyNjMyNjhdfQ==
+eyJoaXN0b3J5IjpbNDIzODQwMzYzLDEzNTg2NzE1NjMsMzU2Mz
+I4Mzk5LC0xMTE2MjYzMjY4XX0=
 -->
