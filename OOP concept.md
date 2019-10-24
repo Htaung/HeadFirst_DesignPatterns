@@ -22,11 +22,11 @@ Pragmatic => language တခုရဲ. construct ေတြကို လက္ေ
 <h2>Evolution to OOP</h2>
 <pre>
 Assembly -> data structure နဲ. algorithm ေတြေရးလုိ.အဆင္ေၿပေအာင္ ထုတ္ထားတဲ့ Procedural Language(Fortan, Algo, C)
-Procedural language -> fuction ေတြခြဲေရးမယ္
+Procedural language -> fuction ေတြခြဲေရးမယ္, reusable ၿဖစ္ေအာင္လုပ္မယ္ -> ေနာက္က်ေတာ့ data abstraction ကိုထဲ့လာပါတယ္
 </pre>
 
 <h2>Inheritance</h2>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyMTkyNzY1NSwzNTYzMjgzOTksLTExMT
+eyJoaXN0b3J5IjpbMTM1ODY3MTU2MywzNTYzMjgzOTksLTExMT
 YyNjMyNjhdfQ==
 -->
