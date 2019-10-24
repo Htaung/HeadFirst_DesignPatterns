@@ -35,7 +35,14 @@ Primitive type ေတြကေန custom data type ဖန္တီးလို.�
 </p>
 <h2>Inheritance</h2>
 existing class တခုကေန code reuse or
+base class ရဲ. source code ကိုမထိပဲ ၿပင္လို.ရႏုိင္ပါတယ္ (extend လုပ္ၿပီးေပါ့)
+
+Inheritance ရဲ. major usage က ၂ခု =>
+
+ - Inheirtance as conceptual modelling   
+ - Inheritance as incremental  program modification
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTU1NzQ4NzQsLTEyNDA5Mzc0NzYsMT
-M1ODY3MTU2MywzNTYzMjgzOTksLTExMTYyNjMyNjhdfQ==
+eyJoaXN0b3J5IjpbLTI0NDA2Mzk1MCwtMTI0MDkzNzQ3NiwxMz
+U4NjcxNTYzLDM1NjMyODM5OSwtMTExNjI2MzI2OF19
 -->
