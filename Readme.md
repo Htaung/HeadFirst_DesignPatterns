@@ -65,3 +65,6 @@ public class MallardDuck extends Duck{
 	}
 
 </pre>
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTE4MDAxMTEzNDNdfQ==
+-->
