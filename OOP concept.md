@@ -17,13 +17,12 @@ Language တခုကိုေလ့လာတဲ့အခါမွာ element �
 					 support ေပးတဲ့ language မွာ OO program ေတြကို ဘယ္လိုေရးရသလဲ ။ ဥပမာ ဘယ္အခ်ိန္မွာ inheritance ကုိသံုးလဲ ရုိးရုိး class 
 					 ကုိသံုးရမွာလား abstract class ကုိသံုးရမွာလား abstract class နဲ. interface usage ဘယ္လိုကြာလဲ ဘယ္ေနရာဘယ္သူ.ကိုသံုးရမွာ 
 					 correct usage က ဘာေတြလဲ ဒါေတြကို ဆုိခ်င္တာပါ။ Pragmatic ကုိအဆင့္ထပ္ၿမွင့္ရင္ေတာ့ design pattern ေတြ ,principle ေတြ ပါ ပါလာမွာပါ။ 
+</pre>
 
-
-<h1>Evolution to OOP</h1>
+<h2>Evolution to OOP</h2>
 	
 
-<h1>Inheritance</h1>
+<h2>Inheritance</h2>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODUxNjcxMDUsLTExMTYyNjMyNjhdfQ
-==
+eyJoaXN0b3J5IjpbMzU2MzI4Mzk5LC0xMTE2MjYzMjY4XX0=
 -->
