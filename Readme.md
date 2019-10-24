@@ -5,13 +5,17 @@ Base on GOLF
 
 <h2>1.Identify the aspects of your application that vary and 
 	separate them from what stays the same. </h2>
+
+<h2>1. Identify the aspects of your application that vary and separate them 
+	from what stays thesame. </h2>
+
 <P>
 Separating what changes from what stays the same
 </P>
 
 <h2>2. Program to an interface, not an implementation </h2>
 <p> 
-<code>	ìProgram to an interfaceî really means ìProgram to a supertype. </code>
+<code>	‚ÄúProgram to an interface‚Äù really means ‚ÄúProgram to a supertype. </code>
 like using a polymorphic type
 
 Examples => Imagine an abstract class Animal, with two concrete implementations, Dog and Cat
@@ -27,16 +31,16 @@ animal.makeSound();
 Assign the concrete implementation object at
 runtime:
 a = getAnimal();
-a.makeSound(); // We donít know WHAT the actual animal subtype is... all we care about is that it knows
+a.makeSound(); // We don‚Äôt know WHAT the actual animal subtype is... all we care about is that it knows
 			   // how to respond to makeSound().
 </code>
 
  
-program to a supertypeî as ìthe declared type of the variables should be a supertype,
+program to a supertype‚Äù as ‚Äúthe declared type of the variables should be a supertype,
 usually an abstract class or interface, so that the objects assigned to those
 variables can be of any concrete implementation of the supertype, which
-means the class declaring them doesnít have to know about the actual object
-types!î
+means the class declaring them doesn‚Äôt have to know about the actual object
+types!
 
 </p>
 
