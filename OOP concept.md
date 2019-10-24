@@ -82,9 +82,11 @@ Java programmer ေတာ္ေတာ္မ်ားမ်ား က abstract cl
    လုပ္ခ်င္တယ္ဆုိရင္ သူတုိ. ၂ ခုဟာ taxonomy မတူတဲ့အတြက္ Flyable ဆိုတဲ့
    interface တခုထားၿပီး model လုပ္ရမွာပါ။ Static type language ေတြမွာ
    polymorphic operation ေတြလုပ္ဖုို. subtype ေတြၿဖစ္မွ လုပ္လို.ရပါတယ္
+   
+Dynamic language ေတြမွာ duck typing ကိုေပးထားတဲ့အတြက္ အဲ့လိုေခၚလို.ရပါတယ္။
 </p>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3Nzg5MDQzODEsLTE3NzQyNjQzNDEsLT
+eyJoaXN0b3J5IjpbLTIwMTIwNDE1MjQsLTE3NzQyNjQzNDEsLT
 EyNDA5Mzc0NzYsMTM1ODY3MTU2MywzNTYzMjgzOTksLTExMTYy
 NjMyNjhdfQ==
 -->
