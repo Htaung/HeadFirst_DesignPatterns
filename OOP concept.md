@@ -22,3 +22,6 @@ https://www.facebook.com/notes/thet-khine/gentle-introduction-to-object-oriented
 	
 
 <h1>Inheritance</h1>
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTExMTYyNjMyNjhdfQ==
+-->
