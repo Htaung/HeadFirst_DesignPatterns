@@ -29,11 +29,12 @@ Procedural language -> fuction ေတြခြဲေရးမယ္, reusable �
 <p>
 custom data type ေတြ create လုပ္ခြင့္ေပးထားတာကိုေၿပာတာပါ။ ဥပမာ Stack, LinkedList ဆုိတာမ်ိဳးကို data type တခုအေနနဲ.ကုိယ္ပုိင္ ဖန္တီးလို.ရမယ္။ ၿပန္သံုးလုိ.ရမယ္ ဒါကို data abstraction လို.ေၿပာလုိ.ရပါတယ္။
 <pre>
-	C => truct, enum, class
+	C => struct, enum, class
 </pre>
+Primitive type ေတြကေန custom data type ဖန္တီးလို.ရမယ္ အဲ့ data type ကို maniuplate လုပ္ဖုိ. function ေတြ create လုပ္လုိ.ရမယ္ဆုိရင္ အဲ့ဒီ language ကို data abstraction ေပးတယ္လို.ေၿပာရမွာပါ။
 </p>
 <h2>Inheritance</h2>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjkwMzUxODMxLDEzNTg2NzE1NjMsMzU2Mz
-I4Mzk5LC0xMTE2MjYzMjY4XX0=
+eyJoaXN0b3J5IjpbLTEyNDA5Mzc0NzYsMTM1ODY3MTU2MywzNT
+YzMjgzOTksLTExMTYyNjMyNjhdfQ==
 -->
