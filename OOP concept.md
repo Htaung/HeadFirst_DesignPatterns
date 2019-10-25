@@ -201,11 +201,14 @@ Greek ဘာသာစကား Poly (မ်ားစြာေသာ) Morph( ပ�
  - C# မွာေတာ့ parent class method မွာ virtual လို.ေရးရၿပီး child class
    method မွာေတာ့ override ဆုိတဲ့ keyword ကိုထဲ့ေပးရပါတယ္။
 
+## ဘာေၾကာင့္ polymorphism ကုိသံုးရတာလဲ
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxOTI5MDczNCw2MjA2MTMxNTUsMTY2Mz
-gyNzE0NywtNDUzNzg0MzA2LC00NzE4NjE1MzYsLTE3OTE2NzY1
-MzgsLTE5MzUzMzc5ODgsMzUyNDY5Mzg0LDEyMjA3ODMyODgsMz
-Y2OTExMDAzLDEzOTk5NTIzOCw0NTI2MTcxNjgsODM2MDI4MTQx
-LC0xNzc0MjY0MzQxLC0xMjQwOTM3NDc2LDEzNTg2NzE1NjMsMz
-U2MzI4Mzk5LC0xMTE2MjYzMjY4XX0=
+eyJoaXN0b3J5IjpbMTc3Mjc5MjkyLDYyMDYxMzE1NSwxNjYzOD
+I3MTQ3LC00NTM3ODQzMDYsLTQ3MTg2MTUzNiwtMTc5MTY3NjUz
+OCwtMTkzNTMzNzk4OCwzNTI0NjkzODQsMTIyMDc4MzI4OCwzNj
+Y5MTEwMDMsMTM5OTk1MjM4LDQ1MjYxNzE2OCw4MzYwMjgxNDEs
+LTE3NzQyNjQzNDEsLTEyNDA5Mzc0NzYsMTM1ODY3MTU2MywzNT
+YzMjgzOTksLTExMTYyNjMyNjhdfQ==
 -->
