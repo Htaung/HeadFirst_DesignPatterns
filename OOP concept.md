@@ -202,13 +202,14 @@ Greek ဘာသာစကား Poly (မ်ားစြာေသာ) Morph( ပ�
    method မွာေတာ့ override ဆုိတဲ့ keyword ကိုထဲ့ေပးရပါတယ္။
 
 ## ဘာေၾကာင့္ polymorphism ကုိသံုးရတာလဲ
-
+ဥပမာ object က Teacher ဆို teacher work ကိုေခၚပါဆုိၿပီး လိုက္ေရးစရာမလိုပါဘူး
+Extensibility ေကာင္းတယ္ လို.ေၿပာရမွာပါ။
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3Mjc5MjkyLDYyMDYxMzE1NSwxNjYzOD
-I3MTQ3LC00NTM3ODQzMDYsLTQ3MTg2MTUzNiwtMTc5MTY3NjUz
-OCwtMTkzNTMzNzk4OCwzNTI0NjkzODQsMTIyMDc4MzI4OCwzNj
-Y5MTEwMDMsMTM5OTk1MjM4LDQ1MjYxNzE2OCw4MzYwMjgxNDEs
-LTE3NzQyNjQzNDEsLTEyNDA5Mzc0NzYsMTM1ODY3MTU2MywzNT
-YzMjgzOTksLTExMTYyNjMyNjhdfQ==
+eyJoaXN0b3J5IjpbMTk0MzQ1NDU5MiwxNzcyNzkyOTIsNjIwNj
+EzMTU1LDE2NjM4MjcxNDcsLTQ1Mzc4NDMwNiwtNDcxODYxNTM2
+LC0xNzkxNjc2NTM4LC0xOTM1MzM3OTg4LDM1MjQ2OTM4NCwxMj
+IwNzgzMjg4LDM2NjkxMTAwMywxMzk5OTUyMzgsNDUyNjE3MTY4
+LDgzNjAyODE0MSwtMTc3NDI2NDM0MSwtMTI0MDkzNzQ3NiwxMz
+U4NjcxNTYzLDM1NjMyODM5OSwtMTExNjI2MzI2OF19
 -->
