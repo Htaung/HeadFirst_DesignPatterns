@@ -222,16 +222,23 @@ Greek ဘာသာစကား Poly (မ်ားစြာေသာ) Morph( ပ�
    အနည္းဆံုး subtyping ၿဖစ္ေအာင္လုပ္ရပါတယ္
  - Inheritance နဲ. interface inheritance(Java မွာေတာ့ interface ကုိ
    implements လို.သံုးတာပါ) နည္းနဲ. subtyping ကုိလုပ္လုိ.ရပါတယ္။
+ဥပမာ static language ေတြမွာ object တခုမွာ work ဆုိတာရိွလဲ subtyping (type အရ assignable )ၿဖစ္မွသာေခၚလုိ.ရမွာပါ။
 
-   Dynamic language ေတြမွာေတာ့ type ေတြ သည္ dynanmic (variable တခုရဲ. type သည္ ပံုေသမဟုတ္ run time မွာ ေၿပာင္းလဲႏုိင္သည္) ၿဖစ္တဲ့အတြက္ subyting မလိုပါဘူး
-   ဒါကို က်ေတာ့ duck typing လို.ေခၚပါတယ္
+  
 
+ - Dynamic language ေတြမွာေတာ့ type ေတြ သည္ dynanmic (variable တခုရဲ.
+   type သည္ ပံုေသမဟုတ္ run time မွာ ေၿပာင္းလဲႏုိင္သည္) ၿဖစ္တဲ့အတြက္
+   subyting မလိုပါဘူး   ဒါကို က်ေတာ့ duck typing လို.ေခၚပါတယ္
+
+   Dynamic language မွာေတာ့ method ရိွတာနဲ.တင္ေခၚလုိ.ရပါၿပီ။ ေခၚတဲ့ object သည္ ဘာ type ၿဖစ္ရမယ္ ဆုိတဲ့ ကန္.သတ္ခ်က္မရိွပါဘူ
+
+### Static Polymorphism
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjA2ODkyNzQsLTE0NDk0ODAzOCwyOT
-IyMjEyNDMsMTk0MzQ1NDU5MiwxNzcyNzkyOTIsNjIwNjEzMTU1
-LDE2NjM4MjcxNDcsLTQ1Mzc4NDMwNiwtNDcxODYxNTM2LC0xNz
-kxNjc2NTM4LC0xOTM1MzM3OTg4LDM1MjQ2OTM4NCwxMjIwNzgz
-Mjg4LDM2NjkxMTAwMywxMzk5OTUyMzgsNDUyNjE3MTY4LDgzNj
-AyODE0MSwtMTc3NDI2NDM0MSwtMTI0MDkzNzQ3NiwxMzU4Njcx
-NTYzXX0=
+eyJoaXN0b3J5IjpbMjA2MDc1MzA4MiwtMTQ0OTQ4MDM4LDI5Mj
+IyMTI0MywxOTQzNDU0NTkyLDE3NzI3OTI5Miw2MjA2MTMxNTUs
+MTY2MzgyNzE0NywtNDUzNzg0MzA2LC00NzE4NjE1MzYsLTE3OT
+E2NzY1MzgsLTE5MzUzMzc5ODgsMzUyNDY5Mzg0LDEyMjA3ODMy
+ODgsMzY2OTExMDAzLDEzOTk5NTIzOCw0NTI2MTcxNjgsODM2MD
+I4MTQxLC0xNzc0MjY0MzQxLC0xMjQwOTM3NDc2LDEzNTg2NzE1
+NjNdfQ==
 -->
