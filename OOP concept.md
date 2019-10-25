@@ -92,8 +92,16 @@ Dynamic language ေတြမွာ duck typing ကိုေပးထားတ�
  - မဟုတ္ရင္ both direction ေခၚခ်င္ရင္ေတာ့ normal class ကိုသံုးၿပီး model   လုပ္လုိ.ရပါတယ္။
 
 ### Inheritance as incremental program modification
+
+
+
+
+## Declaring an interface is like saying: 
+
+     I want something that does `X`, `Y`and `Z`, I don’t care how.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODM2MDI4MTQxLC0xNzc0MjY0MzQxLC0xMj
-QwOTM3NDc2LDEzNTg2NzE1NjMsMzU2MzI4Mzk5LC0xMTE2MjYz
-MjY4XX0=
+eyJoaXN0b3J5IjpbMzk4NTMwNzY5LDgzNjAyODE0MSwtMTc3ND
+I2NDM0MSwtMTI0MDkzNzQ3NiwxMzU4NjcxNTYzLDM1NjMyODM5
+OSwtMTExNjI2MzI2OF19
 -->
