@@ -216,12 +216,18 @@ Greek ဘာသာစကား Poly (မ်ားစြာေသာ) Morph( ပ�
    (implementation ) run မယ္ဆုိတာကို run time (dynamic ) ေရာက္မွ
    ဆံုးၿဖတ္လို.ပါပဲ။
 
+### Subtyping vs Duck Typing
+ - Static language ေတြမွာ dynamic polymorphism ကိုပံုေဖာ္ခ်င္ရင္
+   အနည္းဆံုး subtyping ၿဖစ္ေအာင္လုပ္ရပါတယ္
+ - Inheritance နဲ. interface inheritance(Java မွာေတာ့ interface ကုိ
+   implements လို.သံုးတာပါ) နည္းနဲ. subtyping ကုိလုပ္လုိ.ရပါတယ္။
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjkyMjIxMjQzLDE5NDM0NTQ1OTIsMTc3Mj
-c5MjkyLDYyMDYxMzE1NSwxNjYzODI3MTQ3LC00NTM3ODQzMDYs
-LTQ3MTg2MTUzNiwtMTc5MTY3NjUzOCwtMTkzNTMzNzk4OCwzNT
-I0NjkzODQsMTIyMDc4MzI4OCwzNjY5MTEwMDMsMTM5OTk1MjM4
-LDQ1MjYxNzE2OCw4MzYwMjgxNDEsLTE3NzQyNjQzNDEsLTEyND
-A5Mzc0NzYsMTM1ODY3MTU2MywzNTYzMjgzOTksLTExMTYyNjMy
-NjhdfQ==
+eyJoaXN0b3J5IjpbLTIzNDM1NDc2NiwyOTIyMjEyNDMsMTk0Mz
+Q1NDU5MiwxNzcyNzkyOTIsNjIwNjEzMTU1LDE2NjM4MjcxNDcs
+LTQ1Mzc4NDMwNiwtNDcxODYxNTM2LC0xNzkxNjc2NTM4LC0xOT
+M1MzM3OTg4LDM1MjQ2OTM4NCwxMjIwNzgzMjg4LDM2NjkxMTAw
+MywxMzk5OTUyMzgsNDUyNjE3MTY4LDgzNjAyODE0MSwtMTc3ND
+I2NDM0MSwtMTI0MDkzNzQ3NiwxMzU4NjcxNTYzLDM1NjMyODM5
+OV19
 -->
