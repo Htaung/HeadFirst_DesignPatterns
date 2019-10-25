@@ -143,6 +143,9 @@ JavaScript မွာေပးထားတဲ့ inheritance model က prorotypic
     console.log(c2.baseData);
 child ရဲ. parent သည္ new Base() (Base object)
 child object c1 နဲ. c2 ဟာ parent object တခုတည္းကို share လုပ္သံုးရပါတယ္။
+ဒါေပမဲ့ c1 ေရာ c2 ေရာက same parent object တခုတည္းကုိ share သံုးရတဲ့အတြက္ c2.baseData ဆိုရင္လဲ [100] လို.ထြက္ပါတယ္။
+
+
 
 <h1> Ref https://www.vneuron.com/2018/02/21/interface-oriented-programming </h1>
 
@@ -165,7 +168,7 @@ child object c1 နဲ. c2 ဟာ parent object တခုတည္းကို s
           to this particular implementation.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjAzMjA5MjcsMzUyNDY5Mzg0LDEyMj
+eyJoaXN0b3J5IjpbLTE5MzUzMzc5ODgsMzUyNDY5Mzg0LDEyMj
 A3ODMyODgsMzY2OTExMDAzLDEzOTk5NTIzOCw0NTI2MTcxNjgs
 ODM2MDI4MTQxLC0xNzc0MjY0MzQxLC0xMjQwOTM3NDc2LDEzNT
 g2NzE1NjMsMzU2MzI4Mzk5LC0xMTE2MjYzMjY4XX0=
