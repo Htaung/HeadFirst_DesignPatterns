@@ -205,11 +205,13 @@ Greek ဘာသာစကား Poly (မ်ားစြာေသာ) Morph( ပ�
 ဥပမာ object က Teacher ဆို teacher work ကိုေခၚပါဆုိၿပီး လိုက္ေရးစရာမလိုပါဘူး
 Extensibility ေကာင္းတယ္ လို.ေၿပာရမွာပါ။
 
+Java , C# တို.မွာလဲ ဒီလိုသေဘာတရားသံုးၿပီး JDBC , ADO.NET API ေတြကိုေဆာက္ထားတာပါ။ ခုကြ်န္ေတာ္ေၿပာသြားတဲ့ Polymorhpism အမ်ိဳးအစားကုိ dynamic polymorphism လို.ေခၚပါတယ္။ ဘာလို.လဲဆုိေတာ့ ဘယ္ method ရဲ. code (implementation ) run မယ္ဆုိတာကို run time (dynamic ) ေရာက္မွ ဆံုးၿဖတ္လို.ပါပဲ။
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0MzQ1NDU5MiwxNzcyNzkyOTIsNjIwNj
-EzMTU1LDE2NjM4MjcxNDcsLTQ1Mzc4NDMwNiwtNDcxODYxNTM2
-LC0xNzkxNjc2NTM4LC0xOTM1MzM3OTg4LDM1MjQ2OTM4NCwxMj
-IwNzgzMjg4LDM2NjkxMTAwMywxMzk5OTUyMzgsNDUyNjE3MTY4
-LDgzNjAyODE0MSwtMTc3NDI2NDM0MSwtMTI0MDkzNzQ3NiwxMz
-U4NjcxNTYzLDM1NjMyODM5OSwtMTExNjI2MzI2OF19
+eyJoaXN0b3J5IjpbNzQwOTIwNjAsMTk0MzQ1NDU5MiwxNzcyNz
+kyOTIsNjIwNjEzMTU1LDE2NjM4MjcxNDcsLTQ1Mzc4NDMwNiwt
+NDcxODYxNTM2LC0xNzkxNjc2NTM4LC0xOTM1MzM3OTg4LDM1Mj
+Q2OTM4NCwxMjIwNzgzMjg4LDM2NjkxMTAwMywxMzk5OTUyMzgs
+NDUyNjE3MTY4LDgzNjAyODE0MSwtMTc3NDI2NDM0MSwtMTI0MD
+kzNzQ3NiwxMzU4NjcxNTYzLDM1NjMyODM5OSwtMTExNjI2MzI2
+OF19
 -->
