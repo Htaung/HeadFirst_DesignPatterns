@@ -106,6 +106,19 @@ base class ရဲ. source code ကုိမၿပင္ပဲနဲ. သူ.က�
 > child classes ေတြမွာပါ effect ၿဖစ္ႏိုင္ပါတယ္။ Composition ဆုိတာက
 > ကိုသံုးလို.တဲ့ class ကုိ reference variable သံုးၿပီး ယူသံုးတာပါပဲ။
 
+### Class Inheritance Versus Prototype Inheritance
+
+## Class Inheritance
+
+class Base  
+{  
+int baseData;  
+}
+
+class Child extends Base  
+{  
+int childData;  
+}
 
 <h1> Ref https://www.vneuron.com/2018/02/21/interface-oriented-programming </h1>
 
@@ -128,7 +141,8 @@ base class ရဲ. source code ကုိမၿပင္ပဲနဲ. သူ.က�
           to this particular implementation.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzY2OTExMDAzLDEzOTk5NTIzOCw0NTI2MT
-cxNjgsODM2MDI4MTQxLC0xNzc0MjY0MzQxLC0xMjQwOTM3NDc2
-LDEzNTg2NzE1NjMsMzU2MzI4Mzk5LC0xMTE2MjYzMjY4XX0=
+eyJoaXN0b3J5IjpbMTIyMDc4MzI4OCwzNjY5MTEwMDMsMTM5OT
+k1MjM4LDQ1MjYxNzE2OCw4MzYwMjgxNDEsLTE3NzQyNjQzNDEs
+LTEyNDA5Mzc0NzYsMTM1ODY3MTU2MywzNTYzMjgzOTksLTExMT
+YyNjMyNjhdfQ==
 -->
