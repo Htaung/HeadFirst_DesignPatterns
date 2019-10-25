@@ -205,13 +205,14 @@ Greek ဘာသာစကား Poly (မ်ားစြာေသာ) Morph( ပ�
 ဥပမာ object က Teacher ဆို teacher work ကိုေခၚပါဆုိၿပီး လိုက္ေရးစရာမလိုပါဘူး
 Extensibility ေကာင္းတယ္ လို.ေၿပာရမွာပါ။
 
+Programmer က MySQL ကေန Oracle ကိုေၿပာင္းမယ္ဆုိရင္ PDO မွာလြယ္ပါတယ္ connection string ေၿပာင္းယံုပါပဲ
 Java , C# တို.မွာလဲ ဒီလိုသေဘာတရားသံုးၿပီး JDBC , ADO.NET API ေတြကိုေဆာက္ထားတာပါ။ ခုကြ်န္ေတာ္ေၿပာသြားတဲ့ Polymorhpism အမ်ိဳးအစားကုိ dynamic polymorphism လို.ေခၚပါတယ္။ ဘာလို.လဲဆုိေတာ့ ဘယ္ method ရဲ. code (implementation ) run မယ္ဆုိတာကို run time (dynamic ) ေရာက္မွ ဆံုးၿဖတ္လို.ပါပဲ။
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQwOTIwNjAsMTk0MzQ1NDU5MiwxNzcyNz
-kyOTIsNjIwNjEzMTU1LDE2NjM4MjcxNDcsLTQ1Mzc4NDMwNiwt
-NDcxODYxNTM2LC0xNzkxNjc2NTM4LC0xOTM1MzM3OTg4LDM1Mj
-Q2OTM4NCwxMjIwNzgzMjg4LDM2NjkxMTAwMywxMzk5OTUyMzgs
-NDUyNjE3MTY4LDgzNjAyODE0MSwtMTc3NDI2NDM0MSwtMTI0MD
-kzNzQ3NiwxMzU4NjcxNTYzLDM1NjMyODM5OSwtMTExNjI2MzI2
-OF19
+eyJoaXN0b3J5IjpbODQwMzc2NzAzLDE5NDM0NTQ1OTIsMTc3Mj
+c5MjkyLDYyMDYxMzE1NSwxNjYzODI3MTQ3LC00NTM3ODQzMDYs
+LTQ3MTg2MTUzNiwtMTc5MTY3NjUzOCwtMTkzNTMzNzk4OCwzNT
+I0NjkzODQsMTIyMDc4MzI4OCwzNjY5MTEwMDMsMTM5OTk1MjM4
+LDQ1MjYxNzE2OCw4MzYwMjgxNDEsLTE3NzQyNjQzNDEsLTEyND
+A5Mzc0NzYsMTM1ODY3MTU2MywzNTYzMjgzOTksLTExMTYyNjMy
+NjhdfQ==
 -->
