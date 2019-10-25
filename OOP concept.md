@@ -246,12 +246,21 @@ Greek ဘာသာစကား Poly (မ်ားစြာေသာ) Morph( ပ�
 
 ## Dynamic language ေတြၿဖစ္တဲ့ Ruby, Python, JavaScript နဲ. PHP တုိ.မွာ method overloadig မရိွပါဘူး။
 
+
+
+### Parametric Polymorphism
+
+ - C++ မွာဆုိ template, Java, C# မွာဆုိရင္ generic လို.ေခၚပါတယ္
+ - Parametric polymorphism သည္ dynamic language ေတြမွာမရိွပါဘူး။ Static
+   language ေတြမွာပဲရိွတာပါ။
+
+ဥပမာ Stack တို. LinkList တုိ.ဆုိတာ ဘံုသံုးပါ integer ေတြထဲ့မဲ့ stack ရိွႏို္င္သလို string ေတြထဲ့မဲ့ stack လဲရိွႏဳိင္ပါတယ္။ Integer အတြက္ stack တခု string အတြက္ stack တခုေရးမယ္ဆုိရင္ code ေတြေဖာင္းပြကုန္ပါတယ္။ ဒါေၾကာင့္ template, generic code ေတြေရးၿပီး တကယ္သံုးေတာ့မွ data type ကုိ parameter အေနနဲ.ပို.လိုက္တာပါ။ အဲ့ေတာ့ compiler, runtime system ကေနၿပီး ဆုိင္ရာ stack (integer ေပးလုိက္ရင္ integer stack ေပါ့ဗ်ာ) ထုတ္ေပးပါတယ္။ အဲ့ေတာ့ code သည္ reusable ၿဖစ္တယ္။ type safe ၿဖစ္တယ္ေပါ့ဗ်ာ။
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjIyOTEyNzgsLTE0NDk0ODAzOCwyOTIyMj
-EyNDMsMTk0MzQ1NDU5MiwxNzcyNzkyOTIsNjIwNjEzMTU1LDE2
-NjM4MjcxNDcsLTQ1Mzc4NDMwNiwtNDcxODYxNTM2LC0xNzkxNj
-c2NTM4LC0xOTM1MzM3OTg4LDM1MjQ2OTM4NCwxMjIwNzgzMjg4
-LDM2NjkxMTAwMywxMzk5OTUyMzgsNDUyNjE3MTY4LDgzNjAyOD
-E0MSwtMTc3NDI2NDM0MSwtMTI0MDkzNzQ3NiwxMzU4NjcxNTYz
-XX0=
+eyJoaXN0b3J5IjpbNjg3NzI1OTMyLDYyMjkxMjc4LC0xNDQ5ND
+gwMzgsMjkyMjIxMjQzLDE5NDM0NTQ1OTIsMTc3Mjc5MjkyLDYy
+MDYxMzE1NSwxNjYzODI3MTQ3LC00NTM3ODQzMDYsLTQ3MTg2MT
+UzNiwtMTc5MTY3NjUzOCwtMTkzNTMzNzk4OCwzNTI0NjkzODQs
+MTIyMDc4MzI4OCwzNjY5MTEwMDMsMTM5OTk1MjM4LDQ1MjYxNz
+E2OCw4MzYwMjgxNDEsLTE3NzQyNjQzNDEsLTEyNDA5Mzc0NzZd
+fQ==
 -->
