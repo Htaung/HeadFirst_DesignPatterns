@@ -96,6 +96,8 @@ Dynamic language ေတြမွာ duck typing ကိုေပးထားတ�
 
 
 
+<h1> Ref https://www.vneuron.com/2018/02/21/interface-oriented-programming </h1>
+
 ## Declaring an interface is like saying: 
 
     I want something that does `X`, `Y`and `Z`, I don’t care how.
@@ -115,7 +117,7 @@ Dynamic language ေတြမွာ duck typing ကိုေပးထားတ�
           to this particular implementation.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDUyNjE3MTY4LDgzNjAyODE0MSwtMTc3ND
-I2NDM0MSwtMTI0MDkzNzQ3NiwxMzU4NjcxNTYzLDM1NjMyODM5
-OSwtMTExNjI2MzI2OF19
+eyJoaXN0b3J5IjpbMTM5OTk1MjM4LDQ1MjYxNzE2OCw4MzYwMj
+gxNDEsLTE3NzQyNjQzNDEsLTEyNDA5Mzc0NzYsMTM1ODY3MTU2
+MywzNTYzMjgzOTksLTExMTYyNjMyNjhdfQ==
 -->
