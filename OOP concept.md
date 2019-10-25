@@ -223,12 +223,15 @@ Greek ဘာသာစကား Poly (မ်ားစြာေသာ) Morph( ပ�
  - Inheritance နဲ. interface inheritance(Java မွာေတာ့ interface ကုိ
    implements လို.သံုးတာပါ) နည္းနဲ. subtyping ကုိလုပ္လုိ.ရပါတယ္။
 
+   Dynamic language ေတြမွာေတာ့ type ေတြ သည္ dynanmic (variable တခုရဲ. type သည္ ပံုေသမဟုတ္ run time မွာ ေၿပာင္းလဲႏုိင္သည္) ၿဖစ္တဲ့အတြက္ subyting မလိုပါဘူး
+   ဒါကို က်ေတာ့ duck typing လို.ေခၚပါတယ္
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDk0ODAzOCwyOTIyMjEyNDMsMTk0Mz
-Q1NDU5MiwxNzcyNzkyOTIsNjIwNjEzMTU1LDE2NjM4MjcxNDcs
-LTQ1Mzc4NDMwNiwtNDcxODYxNTM2LC0xNzkxNjc2NTM4LC0xOT
-M1MzM3OTg4LDM1MjQ2OTM4NCwxMjIwNzgzMjg4LDM2NjkxMTAw
-MywxMzk5OTUyMzgsNDUyNjE3MTY4LDgzNjAyODE0MSwtMTc3ND
-I2NDM0MSwtMTI0MDkzNzQ3NiwxMzU4NjcxNTYzLDM1NjMyODM5
-OV19
+eyJoaXN0b3J5IjpbLTEwNjA2ODkyNzQsLTE0NDk0ODAzOCwyOT
+IyMjEyNDMsMTk0MzQ1NDU5MiwxNzcyNzkyOTIsNjIwNjEzMTU1
+LDE2NjM4MjcxNDcsLTQ1Mzc4NDMwNiwtNDcxODYxNTM2LC0xNz
+kxNjc2NTM4LC0xOTM1MzM3OTg4LDM1MjQ2OTM4NCwxMjIwNzgz
+Mjg4LDM2NjkxMTAwMywxMzk5OTUyMzgsNDUyNjE3MTY4LDgzNj
+AyODE0MSwtMTc3NDI2NDM0MSwtMTI0MDkzNzQ3NiwxMzU4Njcx
+NTYzXX0=
 -->
