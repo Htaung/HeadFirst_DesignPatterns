@@ -108,8 +108,14 @@ Dynamic language ေတြမွာ duck typing ကိုေပးထားတ�
 
 ## A class **implements** an interface, meaning it give the prototype a body and shape so it can actually be used.
 
+ - Generally speaking, writing to interfaces allows the code to be
+   generic, reusable across various implementations.
+ 
+ - Writing to classes kills these features as the code will be bound
+          to this particular implementation.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwMjMyNTcwMCw4MzYwMjgxNDEsLTE3Nz
-QyNjQzNDEsLTEyNDA5Mzc0NzYsMTM1ODY3MTU2MywzNTYzMjgz
-OTksLTExMTYyNjMyNjhdfQ==
+eyJoaXN0b3J5IjpbNDUyNjE3MTY4LDgzNjAyODE0MSwtMTc3ND
+I2NDM0MSwtMTI0MDkzNzQ3NiwxMzU4NjcxNTYzLDM1NjMyODM5
+OSwtMTExNjI2MzI2OF19
 -->
