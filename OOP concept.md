@@ -98,10 +98,14 @@ Dynamic language ေတြမွာ duck typing ကိုေပးထားတ�
 
 ## Declaring an interface is like saying: 
 
-     I want something that does `X`, `Y`and `Z`, I don’t care how.
+    I want something that does `X`, `Y`and `Z`, I don’t care how.
 
+## Class refers to a more concrete behavior:
+
+     I want something that does `X` in this particular way.
+An interface is **abstract**, a class is **concrete**.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzk4NTMwNzY5LDgzNjAyODE0MSwtMTc3ND
-I2NDM0MSwtMTI0MDkzNzQ3NiwxMzU4NjcxNTYzLDM1NjMyODM5
-OSwtMTExNjI2MzI2OF19
+eyJoaXN0b3J5IjpbMTYyNjc4MTExOCw4MzYwMjgxNDEsLTE3Nz
+QyNjQzNDEsLTEyNDA5Mzc0NzYsMTM1ODY3MTU2MywzNTYzMjgz
+OTksLTExMTYyNjMyNjhdfQ==
 -->
