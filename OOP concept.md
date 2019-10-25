@@ -229,12 +229,12 @@ Greek ဘာသာစကား Poly (မ်ားစြာေသာ) Morph( ပ�
  - Dynamic language ေတြမွာေတာ့ type ေတြ သည္ dynanmic (variable တခုရဲ.
    type သည္ ပံုေသမဟုတ္ run time မွာ ေၿပာင္းလဲႏုိင္သည္) ၿဖစ္တဲ့အတြက္
    subyting မလိုပါဘူး   ဒါကို က်ေတာ့ duck typing လို.ေခၚပါတယ္
-
-   Dynamic language မွာေတာ့ method ရိွတာနဲ.တင္ေခၚလုိ.ရပါၿပီ။ ေခၚတဲ့ object သည္ ဘာ type ၿဖစ္ရမယ္ ဆုိတဲ့ ကန္.သတ္ခ်က္မရိွပါဘူ
+ - Dynamic language မွာေတာ့ method ရိွတာနဲ.တင္ေခၚလုိ.ရပါၿပီ။ ေခၚတဲ့
+   object သည္ ဘာ type ၿဖစ္ရမယ္ ဆုိတဲ့ ကန္.သတ္ခ်က္မရိွပါဘူး
 
 ### Static Polymorphism
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2MDc1MzA4MiwtMTQ0OTQ4MDM4LDI5Mj
+eyJoaXN0b3J5IjpbLTk1MzI2MjY5NSwtMTQ0OTQ4MDM4LDI5Mj
 IyMTI0MywxOTQzNDU0NTkyLDE3NzI3OTI5Miw2MjA2MTMxNTUs
 MTY2MzgyNzE0NywtNDUzNzg0MzA2LC00NzE4NjE1MzYsLTE3OT
 E2NzY1MzgsLTE5MzUzMzc5ODgsMzUyNDY5Mzg0LDEyMjA3ODMy
