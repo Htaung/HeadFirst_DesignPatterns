@@ -176,10 +176,11 @@ Prototypical inheritance ေပးတဲ့ language ေတြမွာ parent o
           
 ### Polymorphism
 Greek ဘာသာစကား Poly (မ်ားစြာေသာ) Morph( ပံုသ႑ာန္ေၿပာင္းၿခင္း)
-
-> Polymorphism is the ability to present the same interface for
-> differing underlying forms (data types).
-> တူညီတဲ့ interface (public method or method) ေပၚမွာ contextual object သုိ.မဟုတ္ data type အေပၚမူတည္ၿပီး ေၿပာင္းလဲႏုိင္မွု.ကိုေၿပာတာပါ
+ - > same method with different implementation
+   > Polymorphism is the ability to present the same interface for
+   > differing underlying forms (data types).
+   > တူညီတဲ့ interface (public method or method) ေပၚမွာ contextual object သုိ.မဟုတ္ data type အေပၚမူတည္ၿပီး
+   ေၿပာင္းလဲႏုိင္မွု.ကိုေၿပာတာပါ
 
     Human > work
     Teacher extends Human > work
@@ -191,10 +192,10 @@ Greek ဘာသာစကား Poly (မ်ားစြာေသာ) Morph( ပ�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQyMzM2NTUzLC00NTM3ODQzMDYsLTQ3MT
-g2MTUzNiwtMTc5MTY3NjUzOCwtMTkzNTMzNzk4OCwzNTI0Njkz
-ODQsMTIyMDc4MzI4OCwzNjY5MTEwMDMsMTM5OTk1MjM4LDQ1Mj
-YxNzE2OCw4MzYwMjgxNDEsLTE3NzQyNjQzNDEsLTEyNDA5Mzc0
-NzYsMTM1ODY3MTU2MywzNTYzMjgzOTksLTExMTYyNjMyNjhdfQ
-==
+eyJoaXN0b3J5IjpbLTEyOTU1NTQxNDgsLTQ1Mzc4NDMwNiwtND
+cxODYxNTM2LC0xNzkxNjc2NTM4LC0xOTM1MzM3OTg4LDM1MjQ2
+OTM4NCwxMjIwNzgzMjg4LDM2NjkxMTAwMywxMzk5OTUyMzgsND
+UyNjE3MTY4LDgzNjAyODE0MSwtMTc3NDI2NDM0MSwtMTI0MDkz
+NzQ3NiwxMzU4NjcxNTYzLDM1NjMyODM5OSwtMTExNjI2MzI2OF
+19
 -->
