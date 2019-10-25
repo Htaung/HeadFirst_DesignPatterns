@@ -150,6 +150,10 @@ JavaScript မွာေပးထားတဲ့ inheritance model က prorotypic
    ထဲကုိ attribute ေတြ ထပ္ထဲ့တာ ႏွုတ္တာ အားလံုးသည္ child အားလံုးမွာ
    effect ၿဖစ္ပါတယ္
 
+### Dynamic Inheritance
+
+Prototypical inheritance ေပးတဲ့ language ေတြမွာ parent object ကုိ dynamically ေၿပာင္းလို.ရပါတယ္။ ဒါကုိ dynamic inheritance လို.ေခၚပါတယ္။ state အေၿပာင္းအလဲေပၚမူတည္ၿပီး လုပ္ရတဲ့ code ေတြမွာဆုိ Dynamic Inheritance ဟာ အသံုး၀င္ပါတယ္။
+
 <h1> Ref https://www.vneuron.com/2018/02/21/interface-oriented-programming </h1>
 
 ## Declaring an interface is like saying: 
@@ -171,9 +175,9 @@ JavaScript မွာေပးထားတဲ့ inheritance model က prorotypic
           to this particular implementation.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTE2NzY1MzgsLTE5MzUzMzc5ODgsMz
-UyNDY5Mzg0LDEyMjA3ODMyODgsMzY2OTExMDAzLDEzOTk5NTIz
-OCw0NTI2MTcxNjgsODM2MDI4MTQxLC0xNzc0MjY0MzQxLC0xMj
-QwOTM3NDc2LDEzNTg2NzE1NjMsMzU2MzI4Mzk5LC0xMTE2MjYz
-MjY4XX0=
+eyJoaXN0b3J5IjpbLTQ3MTg2MTUzNiwtMTc5MTY3NjUzOCwtMT
+kzNTMzNzk4OCwzNTI0NjkzODQsMTIyMDc4MzI4OCwzNjY5MTEw
+MDMsMTM5OTk1MjM4LDQ1MjYxNzE2OCw4MzYwMjgxNDEsLTE3Nz
+QyNjQzNDEsLTEyNDA5Mzc0NzYsMTM1ODY3MTU2MywzNTYzMjgz
+OTksLTExMTYyNjMyNjhdfQ==
 -->
