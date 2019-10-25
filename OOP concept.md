@@ -94,6 +94,9 @@ Dynamic language ေတြမွာ duck typing ကိုေပးထားတ�
 ### Inheritance as incremental program modification
 base class ရဲ. source code ကုိမၿပင္ပဲနဲ. သူ.ကို implementation အရ ၿပင္ခ်င္တဲ့အခါမွာ extend လုပ္ၿပီးသံုးတာမ်ိဳးပါ။
 
+## **Favour inhertiance over composition**
+
+code reuse လုပ္ခ်င္ယံုသက္သက္နဲ. inheritance ကုိသံုးၾကပါတယ္ ။ taxonomy အရ မတူရင္ေသာ္လည္းေကာငး္ modifcation or added functionality မထဲ့ႏိုင္ရင္ေသာ္လည္းေကာင္း အဲ့လိုသံုးတာမွားပါတယ္။ Code reuse လုပ္ခ်င္ရင္ composition ကုိသံုးပါ။ ဘာလုိ.လဲဆုိေတာ့ inheritance hierarchicy မ်ားလာတာနဲ.အမွ် classes ေတြဟာ dependency မ်ားလာပါတယ္။ Base class တခုကို ေၿပာင္းလုိက္တာနဲ. ေအာက္က child classes ေတြမွာပါ effect ၿဖစ္ႏိုင္ပါတယ္။ Composition ဆုိတာက ကိုသံုးလို.တဲ့ class ကုိ reference variable သံုးၿပီး ယူသံုးတာပါပဲ။
 
 
 <h1> Ref https://www.vneuron.com/2018/02/21/interface-oriented-programming </h1>
@@ -117,8 +120,7 @@ base class ရဲ. source code ကုိမၿပင္ပဲနဲ. သူ.က�
           to this particular implementation.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTk2NDM4NzQsMTM5OTk1MjM4LDQ1Mj
-YxNzE2OCw4MzYwMjgxNDEsLTE3NzQyNjQzNDEsLTEyNDA5Mzc0
-NzYsMTM1ODY3MTU2MywzNTYzMjgzOTksLTExMTYyNjMyNjhdfQ
-==
+eyJoaXN0b3J5IjpbLTkxNDU2ODgyNCwxMzk5OTUyMzgsNDUyNj
+E3MTY4LDgzNjAyODE0MSwtMTc3NDI2NDM0MSwtMTI0MDkzNzQ3
+NiwxMzU4NjcxNTYzLDM1NjMyODM5OSwtMTExNjI2MzI2OF19
 -->
