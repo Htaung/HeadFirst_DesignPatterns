@@ -141,7 +141,8 @@ JavaScript မွာေပးထားတဲ့ inheritance model က prorotypic
     var c2 = new Child();  
     c1.baseData.push(100);  
     console.log(c2.baseData);
-
+child ရဲ. parent သည္ new Base() (Base object)
+child object c1 နဲ. c2 ဟာ parent object တခုတည္းကို share လုပ္သံုးရပါတယ္။
 
 <h1> Ref https://www.vneuron.com/2018/02/21/interface-oriented-programming </h1>
 
@@ -164,8 +165,8 @@ JavaScript မွာေပးထားတဲ့ inheritance model က prorotypic
           to this particular implementation.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzU0MTA5MSwzNTI0NjkzODQsMTIyMD
-c4MzI4OCwzNjY5MTEwMDMsMTM5OTk1MjM4LDQ1MjYxNzE2OCw4
-MzYwMjgxNDEsLTE3NzQyNjQzNDEsLTEyNDA5Mzc0NzYsMTM1OD
-Y3MTU2MywzNTYzMjgzOTksLTExMTYyNjMyNjhdfQ==
+eyJoaXN0b3J5IjpbLTE1MjAzMjA5MjcsMzUyNDY5Mzg0LDEyMj
+A3ODMyODgsMzY2OTExMDAzLDEzOTk5NTIzOCw0NTI2MTcxNjgs
+ODM2MDI4MTQxLC0xNzc0MjY0MzQxLC0xMjQwOTM3NDc2LDEzNT
+g2NzE1NjMsMzU2MzI4Mzk5LC0xMTE2MjYzMjY4XX0=
 -->
