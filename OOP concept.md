@@ -114,19 +114,34 @@ base class ရဲ. source code ကုိမၿပင္ပဲနဲ. သူ.က�
 
 ## Classical Inheritance
 
-class Base  
-{  
-int baseData;  
-}
-
-class Child extends Base  
-{  
-int childData;  
-}
+    class Base  
+    {  
+    int baseData;  
+    }
+    
+    class Child extends Base  
+    {  
+    int childData;  
+    }
 
 ### Prototypical Inheritance
 
 JavaScript မွာေပးထားတဲ့ inheritance model က prorotypical inheritance ပါ။
+
+    function Base()  
+    {  
+    this.baseData = [];  
+    }  
+    function Child()  
+    {  
+    this.childData = "childdata";  
+    }  
+    Child.prototype = new Base();//set up inheritance  
+    var c1 = new Child();  
+    var c2 = new Child();  
+    c1.baseData.push(100);  
+    console.log(c2.baseData);
+
 
 <h1> Ref https://www.vneuron.com/2018/02/21/interface-oriented-programming </h1>
 
@@ -149,7 +164,7 @@ JavaScript မွာေပးထားတဲ့ inheritance model က prorotypic
           to this particular implementation.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExMjY0ODY5NCwzNTI0NjkzODQsMTIyMD
+eyJoaXN0b3J5IjpbLTE1NzU0MTA5MSwzNTI0NjkzODQsMTIyMD
 c4MzI4OCwzNjY5MTEwMDMsMTM5OTk1MjM4LDQ1MjYxNzE2OCw4
 MzYwMjgxNDEsLTE3NzQyNjQzNDEsLTEyNDA5Mzc0NzYsMTM1OD
 Y3MTU2MywzNTYzMjgzOTksLTExMTYyNjMyNjhdfQ==
