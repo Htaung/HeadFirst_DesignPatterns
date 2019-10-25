@@ -189,13 +189,14 @@ Greek ဘာသာစကား Poly (မ်ားစြာေသာ) Morph( ပ�
     h.work();
     h = new Doctor();  
     h.work();
-
+    
+h.work() သည္ Teacher object ရဲ. work ကုိလွမ္းေခၚမွာၿဖစ္ပါတယ္။ ဘာလုိ.လဲဆုိေတာ့ java method ေတြက static မေၾကၿငာထားရင္ auto virtual ၿဖစ္လို.ပါ။ Human ရဲ. work ကိုေခၚမဲ့အစား h ထဲမွာတကယ္ရိွတဲ့ object Teacher ကုိေခၚပါလိမ့္မယ္။ဒါဟာ polymorphism ပါပဲ။
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2MzgyNzE0NywtNDUzNzg0MzA2LC00Nz
-E4NjE1MzYsLTE3OTE2NzY1MzgsLTE5MzUzMzc5ODgsMzUyNDY5
-Mzg0LDEyMjA3ODMyODgsMzY2OTExMDAzLDEzOTk5NTIzOCw0NT
-I2MTcxNjgsODM2MDI4MTQxLC0xNzc0MjY0MzQxLC0xMjQwOTM3
-NDc2LDEzNTg2NzE1NjMsMzU2MzI4Mzk5LC0xMTE2MjYzMjY4XX
-0=
+eyJoaXN0b3J5IjpbNjIwNjEzMTU1LDE2NjM4MjcxNDcsLTQ1Mz
+c4NDMwNiwtNDcxODYxNTM2LC0xNzkxNjc2NTM4LC0xOTM1MzM3
+OTg4LDM1MjQ2OTM4NCwxMjIwNzgzMjg4LDM2NjkxMTAwMywxMz
+k5OTUyMzgsNDUyNjE3MTY4LDgzNjAyODE0MSwtMTc3NDI2NDM0
+MSwtMTI0MDkzNzQ3NiwxMzU4NjcxNTYzLDM1NjMyODM5OSwtMT
+ExNjI2MzI2OF19
 -->
