@@ -173,13 +173,18 @@ Prototypical inheritance ေပးတဲ့ language ေတြမွာ parent o
  
  - Writing to classes kills these features as the code will be bound
           to this particular implementation.
+          
 ### Polymorphism
+Greek ဘာသာစကား Poly (မ်ားစြာေသာ) Morph( ပံုသ႑ာန္ေၿပာင္းၿခင္း)
+
+> Polymorphism is the ability to present the same interface for
+> differing underlying forms (data types).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTMxOTIzMTc4LC00NTM3ODQzMDYsLTQ3MT
-g2MTUzNiwtMTc5MTY3NjUzOCwtMTkzNTMzNzk4OCwzNTI0Njkz
-ODQsMTIyMDc4MzI4OCwzNjY5MTEwMDMsMTM5OTk1MjM4LDQ1Mj
-YxNzE2OCw4MzYwMjgxNDEsLTE3NzQyNjQzNDEsLTEyNDA5Mzc0
-NzYsMTM1ODY3MTU2MywzNTYzMjgzOTksLTExMTYyNjMyNjhdfQ
-==
+eyJoaXN0b3J5IjpbLTE5MTcxMTA5ODAsLTQ1Mzc4NDMwNiwtND
+cxODYxNTM2LC0xNzkxNjc2NTM4LC0xOTM1MzM3OTg4LDM1MjQ2
+OTM4NCwxMjIwNzgzMjg4LDM2NjkxMTAwMywxMzk5OTUyMzgsND
+UyNjE3MTY4LDgzNjAyODE0MSwtMTc3NDI2NDM0MSwtMTI0MDkz
+NzQ3NiwxMzU4NjcxNTYzLDM1NjMyODM5OSwtMTExNjI2MzI2OF
+19
 -->
