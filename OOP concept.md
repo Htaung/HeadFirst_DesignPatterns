@@ -124,6 +124,10 @@ class Child extends Base
 int childData;  
 }
 
+### Prototypical Inheritance
+
+JavaScript မွာေပးထားတဲ့ inheritance model က prorotypical inheritance ပါ။
+
 <h1> Ref https://www.vneuron.com/2018/02/21/interface-oriented-programming </h1>
 
 ## Declaring an interface is like saying: 
@@ -145,8 +149,8 @@ int childData;
           to this particular implementation.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODUwNjYxOTkyLDM1MjQ2OTM4NCwxMjIwNz
-gzMjg4LDM2NjkxMTAwMywxMzk5OTUyMzgsNDUyNjE3MTY4LDgz
-NjAyODE0MSwtMTc3NDI2NDM0MSwtMTI0MDkzNzQ3NiwxMzU4Nj
-cxNTYzLDM1NjMyODM5OSwtMTExNjI2MzI2OF19
+eyJoaXN0b3J5IjpbMjExMjY0ODY5NCwzNTI0NjkzODQsMTIyMD
+c4MzI4OCwzNjY5MTEwMDMsMTM5OTk1MjM4LDQ1MjYxNzE2OCw4
+MzYwMjgxNDEsLTE3NzQyNjQzNDEsLTEyNDA5Mzc0NzYsMTM1OD
+Y3MTU2MywzNTYzMjgzOTksLTExMTYyNjMyNjhdfQ==
 -->
