@@ -202,18 +202,26 @@ Greek ဘာသာစကား Poly (မ်ားစြာေသာ) Morph( ပ�
    method မွာေတာ့ override ဆုိတဲ့ keyword ကိုထဲ့ေပးရပါတယ္။
 
 ## ဘာေၾကာင့္ polymorphism ကုိသံုးရတာလဲ
-ဥပမာ object က Teacher ဆို teacher work ကိုေခၚပါဆုိၿပီး လိုက္ေရးစရာမလိုပါဘူး
-Extensibility ေကာင္းတယ္ လို.ေၿပာရမွာပါ။
 
-Programmer က MySQL ကေန Oracle ကိုေၿပာင္းမယ္ဆုိရင္ hibernate မွာလြယ္ပါတယ္ connection string ေၿပာင္းယံုပါပဲ
-ဘယ္ DB ကုိ connect လုပ္မယ္ဆိုတာ ေျပာစရာ မလိုပဲ connect လို့ သုံးရင္ရျပီ
-Java , C# တို.မွာလဲ ဒီလိုသေဘာတရားသံုးၿပီး JDBC , ADO.NET API ေတြကိုေဆာက္ထားတာပါ။ ခုကြ်န္ေတာ္ေၿပာသြားတဲ့ Polymorhpism အမ်ိဳးအစားကုိ dynamic polymorphism လို.ေခၚပါတယ္။ ဘာလို.လဲဆုိေတာ့ ဘယ္ method ရဲ. code (implementation ) run မယ္ဆုိတာကို run time (dynamic ) ေရာက္မွ ဆံုးၿဖတ္လို.ပါပဲ။
+ - ဥပမာ object က Teacher ဆို teacher work ကိုေခၚပါဆုိၿပီး
+   လိုက္ေရးစရာမလိုပါဘူး Extensibility ေကာင္းတယ္ လို.ေၿပာရမွာပါ။
+ - Programmer က MySQL ကေန Oracle ကိုေၿပာင္းမယ္ဆုိရင္ hibernate
+   မွာလြယ္ပါတယ္ connection string ေၿပာင္းယံုပါပဲ
+ - ဘယ္ DB ကုိ connect လုပ္မယ္ဆိုတာ ေျပာစရာ မလိုပဲ connect လို့
+   သုံးရင္ရျပီ
+ - Java , C# တို.မွာလဲ ဒီလိုသေဘာတရားသံုးၿပီး JDBC , ADO.NET API
+   ေတြကိုေဆာက္ထားတာပါ။
+ - ခုကြ်န္ေတာ္ေၿပာသြားတဲ့ Polymorhpism အမ်ိဳးအစားကုိ dynamic
+   polymorphism လို.ေခၚပါတယ္။ ဘာလို.လဲဆုိေတာ့ ဘယ္ method ရဲ. code
+   (implementation ) run မယ္ဆုိတာကို run time (dynamic ) ေရာက္မွ
+   ဆံုးၿဖတ္လို.ပါပဲ။
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxMTAzNjcxMiwxOTQzNDU0NTkyLDE3Nz
-I3OTI5Miw2MjA2MTMxNTUsMTY2MzgyNzE0NywtNDUzNzg0MzA2
-LC00NzE4NjE1MzYsLTE3OTE2NzY1MzgsLTE5MzUzMzc5ODgsMz
-UyNDY5Mzg0LDEyMjA3ODMyODgsMzY2OTExMDAzLDEzOTk5NTIz
-OCw0NTI2MTcxNjgsODM2MDI4MTQxLC0xNzc0MjY0MzQxLC0xMj
-QwOTM3NDc2LDEzNTg2NzE1NjMsMzU2MzI4Mzk5LC0xMTE2MjYz
-MjY4XX0=
+eyJoaXN0b3J5IjpbMjkyMjIxMjQzLDE5NDM0NTQ1OTIsMTc3Mj
+c5MjkyLDYyMDYxMzE1NSwxNjYzODI3MTQ3LC00NTM3ODQzMDYs
+LTQ3MTg2MTUzNiwtMTc5MTY3NjUzOCwtMTkzNTMzNzk4OCwzNT
+I0NjkzODQsMTIyMDc4MzI4OCwzNjY5MTEwMDMsMTM5OTk1MjM4
+LDQ1MjYxNzE2OCw4MzYwMjgxNDEsLTE3NzQyNjQzNDEsLTEyND
+A5Mzc0NzYsMTM1ODY3MTU2MywzNTYzMjgzOTksLTExMTYyNjMy
+NjhdfQ==
 -->
