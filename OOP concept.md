@@ -92,7 +92,7 @@ Dynamic language ေတြမွာ duck typing ကိုေပးထားတ�
  - မဟုတ္ရင္ both direction ေခၚခ်င္ရင္ေတာ့ normal class ကိုသံုးၿပီး model   လုပ္လုိ.ရပါတယ္။
 
 ### Inheritance as incremental program modification
-
+base class ရဲ. source code ကုိမၿပင္ပဲနဲ. သူ.ကို implementation အရ ၿပင္ခ်င္တဲ့အခါမွာ extend လုပ္ၿပီးသံုးတာမ်ိဳးပါ။
 
 
 
@@ -117,7 +117,8 @@ Dynamic language ေတြမွာ duck typing ကိုေပးထားတ�
           to this particular implementation.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5OTk1MjM4LDQ1MjYxNzE2OCw4MzYwMj
-gxNDEsLTE3NzQyNjQzNDEsLTEyNDA5Mzc0NzYsMTM1ODY3MTU2
-MywzNTYzMjgzOTksLTExMTYyNjMyNjhdfQ==
+eyJoaXN0b3J5IjpbLTE3OTk2NDM4NzQsMTM5OTk1MjM4LDQ1Mj
+YxNzE2OCw4MzYwMjgxNDEsLTE3NzQyNjQzNDEsLTEyNDA5Mzc0
+NzYsMTM1ODY3MTU2MywzNTYzMjgzOTksLTExMTYyNjMyNjhdfQ
+==
 -->
