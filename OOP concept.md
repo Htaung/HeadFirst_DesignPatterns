@@ -217,13 +217,14 @@ Greek ဘာသာစကား Poly (မ်ားစြာေသာ) Morph( ပ�
    ဆံုးၿဖတ္လို.ပါပဲ။
 
 ### Subtyping vs Duck Typing
- - Static language ေတြမွာ dynamic polymorphism ကိုပံုေဖာ္ခ်င္ရင္
+
+ - Static language(C++,Java,C#) ေတြမွာ dynamic polymorphism ကိုပံုေဖာ္ခ်င္ရင္
    အနည္းဆံုး subtyping ၿဖစ္ေအာင္လုပ္ရပါတယ္
  - Inheritance နဲ. interface inheritance(Java မွာေတာ့ interface ကုိ
    implements လို.သံုးတာပါ) နည္းနဲ. subtyping ကုိလုပ္လုိ.ရပါတယ္။
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzNDM1NDc2NiwyOTIyMjEyNDMsMTk0Mz
+eyJoaXN0b3J5IjpbLTE0NDk0ODAzOCwyOTIyMjEyNDMsMTk0Mz
 Q1NDU5MiwxNzcyNzkyOTIsNjIwNjEzMTU1LDE2NjM4MjcxNDcs
 LTQ1Mzc4NDMwNiwtNDcxODYxNTM2LC0xNzkxNjc2NTM4LC0xOT
 M1MzM3OTg4LDM1MjQ2OTM4NCwxMjIwNzgzMjg4LDM2NjkxMTAw
