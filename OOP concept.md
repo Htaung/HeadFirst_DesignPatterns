@@ -103,9 +103,13 @@ Dynamic language ေတြမွာ duck typing ကိုေပးထားတ�
 ## Class refers to a more concrete behavior:
 
      I want something that does `X` in this particular way.
-An interface is **abstract**, a class is **concrete**.
+
+## An interface is **abstract**, a class is **concrete**.
+
+## A class **implements** an interface, meaning it give the prototype a body and shape so it can actually be used.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyNjc4MTExOCw4MzYwMjgxNDEsLTE3Nz
+eyJoaXN0b3J5IjpbLTgwMjMyNTcwMCw4MzYwMjgxNDEsLTE3Nz
 QyNjQzNDEsLTEyNDA5Mzc0NzYsMTM1ODY3MTU2MywzNTYzMjgz
 OTksLTExMTYyNjMyNjhdfQ==
 -->
