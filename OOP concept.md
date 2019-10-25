@@ -194,8 +194,15 @@ Greek ဘာသာစကား Poly (မ်ားစြာေသာ) Morph( ပ�
  - ဘာလုိ.လဲဆုိေတာ့ java method ေတြက static မေၾကၿငာထားရင္ `auto virtual` ၿဖစ္လို.ပါ။ Human ရဲ. work ကိုေခၚမဲ့အစား h ထဲမွာတကယ္ရိွတဲ့ object Teacher ကုိေခၚပါလိမ့္မယ္။ဒါဟာ polymorphism ပါပဲ။
  - (execute လုပ္မွာသည္ Teacher ရဲ. work လား Doctor work လား)ကုိေတာ့ h ထဲမွာ ေရာက္ေနတဲ့ object ေပၚမူတည္ၿပီး ဆံုးၿဖတ္မွာပါ။ ဒါေၾကာင့္ Polymorphism သည္ same method with different implementation လုိ.လဲဆုိၾကပါတယ္
 
+ - static language (Java,C#,C++)မွာ polymorphism သည္ virtual method
+   မွာပဲအလုပ္လုပ္ပါတယ္။ Java မွာေတာဘာမွမေရးရေပမဲ့ C++ မွာ virtual
+   လို.ေရးရၿပီး pointer နဲ.သံုးရပါတယ္။
+
+ - C# မွာေတာ့ parent class method မွာ virtual လို.ေရးရၿပီး child class
+   method မွာေတာ့ override ဆုိတဲ့ keyword ကိုထဲ့ေပးရပါတယ္။
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3MTExNjk3OCw2MjA2MTMxNTUsMTY2Mz
+eyJoaXN0b3J5IjpbMTcxOTI5MDczNCw2MjA2MTMxNTUsMTY2Mz
 gyNzE0NywtNDUzNzg0MzA2LC00NzE4NjE1MzYsLTE3OTE2NzY1
 MzgsLTE5MzUzMzc5ODgsMzUyNDY5Mzg0LDEyMjA3ODMyODgsMz
 Y2OTExMDAzLDEzOTk5NTIzOCw0NTI2MTcxNjgsODM2MDI4MTQx
