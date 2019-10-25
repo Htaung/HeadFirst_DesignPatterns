@@ -106,13 +106,13 @@ base class ရဲ. source code ကုိမၿပင္ပဲနဲ. သူ.က�
 > child classes ေတြမွာပါ effect ၿဖစ္ႏိုင္ပါတယ္။ Composition ဆုိတာက
 > ကိုသံုးလို.တဲ့ class ကုိ reference variable သံုးၿပီး ယူသံုးတာပါပဲ။
 
-### Class Inheritance Versus Prototype Inheritance
+### Classical Inheritance Versus Prototype Inheritance
  - Child object တုိင္းမွာ base class ကရတဲ့ baseData နဲ. child class ရဲ.
    childData ဆုိၿပီး property 2 ခုရမွာပါ။
  - Child object တခုေဆာက္တုိင္း သီးၿခား baseData တခုစီရေနမွာပါ။
  - Parent က property ေတြကုိ child object အတြက္ seperate copy ေပးထားတဲ့သေဘာပါ။ **Inheritance with copy semantic** လို.ေၿပာလို.ရပါတယ္။
 
-## Class Inheritance
+## Classical Inheritance
 
 class Base  
 {  
@@ -145,8 +145,8 @@ int childData;
           to this particular implementation.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzUyNDY5Mzg0LDEyMjA3ODMyODgsMzY2OT
-ExMDAzLDEzOTk5NTIzOCw0NTI2MTcxNjgsODM2MDI4MTQxLC0x
-Nzc0MjY0MzQxLC0xMjQwOTM3NDc2LDEzNTg2NzE1NjMsMzU2Mz
-I4Mzk5LC0xMTE2MjYzMjY4XX0=
+eyJoaXN0b3J5IjpbODUwNjYxOTkyLDM1MjQ2OTM4NCwxMjIwNz
+gzMjg4LDM2NjkxMTAwMywxMzk5OTUyMzgsNDUyNjE3MTY4LDgz
+NjAyODE0MSwtMTc3NDI2NDM0MSwtMTI0MDkzNzQ3NiwxMzU4Nj
+cxNTYzLDM1NjMyODM5OSwtMTExNjI2MzI2OF19
 -->
