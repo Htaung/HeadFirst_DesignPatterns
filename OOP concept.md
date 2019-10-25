@@ -192,9 +192,10 @@ Greek ဘာသာစကား Poly (မ်ားစြာေသာ) Morph( ပ�
     
  - h.work() သည္ Teacher object ရဲ. work ကုိလွမ္းေခၚမွာၿဖစ္ပါတယ္။ 
  - ဘာလုိ.လဲဆုိေတာ့ java method ေတြက static မေၾကၿငာထားရင္ `auto virtual` ၿဖစ္လို.ပါ။ Human ရဲ. work ကိုေခၚမဲ့အစား h ထဲမွာတကယ္ရိွတဲ့ object Teacher ကုိေခၚပါလိမ့္မယ္။ဒါဟာ polymorphism ပါပဲ။
+ - (execute လုပ္မွာသည္ Teacher ရဲ. work လား Doctor work လား)ကုိေတာ့ h ထဲမွာ ေရာက္ေနတဲ့ object ေပၚမူတည္ၿပီး ဆံုးၿဖတ္မွာပါ။ ဒါေၾကာင့္ Polymorphism သည္ same method with different implementation လုိ.လဲဆုိၾကပါတယ္
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2ODAyOTAyMyw2MjA2MTMxNTUsMTY2Mz
+eyJoaXN0b3J5IjpbLTU3MTExNjk3OCw2MjA2MTMxNTUsMTY2Mz
 gyNzE0NywtNDUzNzg0MzA2LC00NzE4NjE1MzYsLTE3OTE2NzY1
 MzgsLTE5MzUzMzc5ODgsMzUyNDY5Mzg0LDEyMjA3ODMyODgsMz
 Y2OTExMDAzLDEzOTk5NTIzOCw0NTI2MTcxNjgsODM2MDI4MTQx
