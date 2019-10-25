@@ -233,13 +233,25 @@ Greek ဘာသာစကား Poly (မ်ားစြာေသာ) Morph( ပ�
    object သည္ ဘာ type ၿဖစ္ရမယ္ ဆုိတဲ့ ကန္.သတ္ခ်က္မရိွပါဘူး
 
 ### Static Polymorphism
-method overloading ကုိေၿပာခ်င္တာပါ
+
+ - method overloading ကုိေၿပာခ်င္တာပါ
+ - method ေတြကို နာမည္တူရမယ္ ၊ return type (sub type ဆိုလဲရ) တူရမယ္
+   ဒါေပမဲ့ protocol မတူပဲ ေရးရင္
+ - Method protocol ဆုိတာ ဒီေနရာမွာ method တခုရဲ. parameter အေရအတြက္ ၊
+   parameter type ၊ parameter order အားလံုးကိုေၿပာတာပါ။
+
+## static polymorphism လို.ေခၚရၿခင္းကေတာ့ method overloading မွာ ဘယ္ metod ကုိေခၚမယ္ဆုိတာကို compile time မွာ ဆံုးၿဖတ္လို.ပါ
+
+ 
+
+## Dynamic language ေတြၿဖစ္တဲ့ Ruby, Python, JavaScript နဲ. PHP တုိ.မွာ method overloadig မရိွပါဘူး။
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxMzk5MjA5MSwtMTQ0OTQ4MDM4LDI5Mj
-IyMTI0MywxOTQzNDU0NTkyLDE3NzI3OTI5Miw2MjA2MTMxNTUs
-MTY2MzgyNzE0NywtNDUzNzg0MzA2LC00NzE4NjE1MzYsLTE3OT
-E2NzY1MzgsLTE5MzUzMzc5ODgsMzUyNDY5Mzg0LDEyMjA3ODMy
-ODgsMzY2OTExMDAzLDEzOTk5NTIzOCw0NTI2MTcxNjgsODM2MD
-I4MTQxLC0xNzc0MjY0MzQxLC0xMjQwOTM3NDc2LDEzNTg2NzE1
-NjNdfQ==
+eyJoaXN0b3J5IjpbNjIyOTEyNzgsLTE0NDk0ODAzOCwyOTIyMj
+EyNDMsMTk0MzQ1NDU5MiwxNzcyNzkyOTIsNjIwNjEzMTU1LDE2
+NjM4MjcxNDcsLTQ1Mzc4NDMwNiwtNDcxODYxNTM2LC0xNzkxNj
+c2NTM4LC0xOTM1MzM3OTg4LDM1MjQ2OTM4NCwxMjIwNzgzMjg4
+LDM2NjkxMTAwMywxMzk5OTUyMzgsNDUyNjE3MTY4LDgzNjAyOD
+E0MSwtMTc3NDI2NDM0MSwtMTI0MDkzNzQ3NiwxMzU4NjcxNTYz
+XX0=
 -->
