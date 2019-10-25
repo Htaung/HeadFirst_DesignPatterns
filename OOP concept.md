@@ -173,12 +173,13 @@ Prototypical inheritance ေပးတဲ့ language ေတြမွာ parent o
  
  - Writing to classes kills these features as the code will be bound
           to this particular implementation.
-
+### Polymorphism
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1Mzc4NDMwNiwtNDcxODYxNTM2LC0xNz
-kxNjc2NTM4LC0xOTM1MzM3OTg4LDM1MjQ2OTM4NCwxMjIwNzgz
-Mjg4LDM2NjkxMTAwMywxMzk5OTUyMzgsNDUyNjE3MTY4LDgzNj
-AyODE0MSwtMTc3NDI2NDM0MSwtMTI0MDkzNzQ3NiwxMzU4Njcx
-NTYzLDM1NjMyODM5OSwtMTExNjI2MzI2OF19
+eyJoaXN0b3J5IjpbNTMxOTIzMTc4LC00NTM3ODQzMDYsLTQ3MT
+g2MTUzNiwtMTc5MTY3NjUzOCwtMTkzNTMzNzk4OCwzNTI0Njkz
+ODQsMTIyMDc4MzI4OCwzNjY5MTEwMDMsMTM5OTk1MjM4LDQ1Mj
+YxNzE2OCw4MzYwMjgxNDEsLTE3NzQyNjQzNDEsLTEyNDA5Mzc0
+NzYsMTM1ODY3MTU2MywzNTYzMjgzOTksLTExMTYyNjMyNjhdfQ
+==
 -->
