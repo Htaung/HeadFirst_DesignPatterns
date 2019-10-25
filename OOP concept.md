@@ -179,12 +179,21 @@ Greek ဘာသာစကား Poly (မ်ားစြာေသာ) Morph( ပ�
 
 > Polymorphism is the ability to present the same interface for
 > differing underlying forms (data types).
+> တူညီတဲ့ interface (public method or method) ေပၚမွာ contextual object သုိ.မဟုတ္ data type အေပၚမူတည္ၿပီး ေၿပာင္းလဲႏုိင္မွု.ကိုေၿပာတာပါ
+Human > work
+Teacher extends Human > work
+Doctor extends Human > work
+Human h = new Teacher();  
+h.work();
+h = new Doctor();  
+h.work();
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTcxMTA5ODAsLTQ1Mzc4NDMwNiwtND
-cxODYxNTM2LC0xNzkxNjc2NTM4LC0xOTM1MzM3OTg4LDM1MjQ2
-OTM4NCwxMjIwNzgzMjg4LDM2NjkxMTAwMywxMzk5OTUyMzgsND
-UyNjE3MTY4LDgzNjAyODE0MSwtMTc3NDI2NDM0MSwtMTI0MDkz
-NzQ3NiwxMzU4NjcxNTYzLDM1NjMyODM5OSwtMTExNjI2MzI2OF
-19
+eyJoaXN0b3J5IjpbLTU0ODc1Njg2OSwtNDUzNzg0MzA2LC00Nz
+E4NjE1MzYsLTE3OTE2NzY1MzgsLTE5MzUzMzc5ODgsMzUyNDY5
+Mzg0LDEyMjA3ODMyODgsMzY2OTExMDAzLDEzOTk5NTIzOCw0NT
+I2MTcxNjgsODM2MDI4MTQxLC0xNzc0MjY0MzQxLC0xMjQwOTM3
+NDc2LDEzNTg2NzE1NjMsMzU2MzI4Mzk5LC0xMTE2MjYzMjY4XX
+0=
 -->
