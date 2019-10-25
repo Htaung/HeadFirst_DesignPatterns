@@ -233,8 +233,9 @@ Greek ဘာသာစကား Poly (မ်ားစြာေသာ) Morph( ပ�
    object သည္ ဘာ type ၿဖစ္ရမယ္ ဆုိတဲ့ ကန္.သတ္ခ်က္မရိွပါဘူး
 
 ### Static Polymorphism
+method overloading ကုိေၿပာခ်င္တာပါ
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1MzI2MjY5NSwtMTQ0OTQ4MDM4LDI5Mj
+eyJoaXN0b3J5IjpbMTkxMzk5MjA5MSwtMTQ0OTQ4MDM4LDI5Mj
 IyMTI0MywxOTQzNDU0NTkyLDE3NzI3OTI5Miw2MjA2MTMxNTUs
 MTY2MzgyNzE0NywtNDUzNzg0MzA2LC00NzE4NjE1MzYsLTE3OT
 E2NzY1MzgsLTE5MzUzMzc5ODgsMzUyNDY5Mzg0LDEyMjA3ODMy
