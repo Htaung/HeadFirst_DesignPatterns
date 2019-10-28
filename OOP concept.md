@@ -281,13 +281,36 @@ Greek ဘာသာစကား Poly (မ်ားစြာေသာ) Morph( ပ�
  - Object creation မွာ parameter ေတြမ်ားလာရင္ builder pattern နဲ. solve
    လုပ္ရပါလိမ့္မယ္။
 
+    public class Text {  
+    String displayValue;  
+    String font;  
+    String color;  
+    String decoration;
+    
+    Text(String displayValue) {  
+    this.displayValue = displayValue;  
+    }  
+    public Text(String displayValue,String font)  
+    {  
+    this.displayValue = displayValue;  
+    this.font= font;  
+    }  
+    public Text(String displayValue,String font,String color)  
+    {  
+    this.displayValue = displayValue;  
+    this.font = font;  
+    this.color = color;  
+    }  
+    }
+
+အေပၚက class diagram အရဆုိရင္ ကြ်န္ေတာ္တုိ.က Object တခုအတြက္ တုိက္ရုိက္ parameter ေတြကိုလက္ခံမဲ့အစား သူ.အတြက္ Builder လို.ေခၚတဲ့ Object မွာ parameter ေတြကို ခနသိမ္းထားမယ္။ ေနာက္မွ build ဆုိတဲ့ method ကုိေခၚမွ သူခုနက သိမ္းထားတဲ့ parameter ေတြကေန တကယ္လိုတဲ့ Object ကုိေဆာက္ေပးမယ္ေပါ့ဗ်ာ။ Builder pattern Code ကုိၾကည့္ရေအာင္။
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4MzY3MjUzLDIxNDU0NTM4NTgsNjIyOT
-EyNzgsLTE0NDk0ODAzOCwyOTIyMjEyNDMsMTk0MzQ1NDU5Miwx
-NzcyNzkyOTIsNjIwNjEzMTU1LDE2NjM4MjcxNDcsLTQ1Mzc4ND
-MwNiwtNDcxODYxNTM2LC0xNzkxNjc2NTM4LC0xOTM1MzM3OTg4
-LDM1MjQ2OTM4NCwxMjIwNzgzMjg4LDM2NjkxMTAwMywxMzk5OT
-UyMzgsNDUyNjE3MTY4LDgzNjAyODE0MSwtMTc3NDI2NDM0MV19
-
+eyJoaXN0b3J5IjpbLTU1ODcyNjYxMiwyMTQ1NDUzODU4LDYyMj
+kxMjc4LC0xNDQ5NDgwMzgsMjkyMjIxMjQzLDE5NDM0NTQ1OTIs
+MTc3Mjc5MjkyLDYyMDYxMzE1NSwxNjYzODI3MTQ3LC00NTM3OD
+QzMDYsLTQ3MTg2MTUzNiwtMTc5MTY3NjUzOCwtMTkzNTMzNzk4
+OCwzNTI0NjkzODQsMTIyMDc4MzI4OCwzNjY5MTEwMDMsMTM5OT
+k1MjM4LDQ1MjYxNzE2OCw4MzYwMjgxNDEsLTE3NzQyNjQzNDFd
+fQ==
 -->
