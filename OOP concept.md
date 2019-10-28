@@ -370,23 +370,34 @@ Greek ဘာသာစကား Poly (မ်ားစြာေသာ) Morph( ပ�
     Builder font(String fontName) {  
     this.font = fontName;  
 
-အေပၚက method ၂ခုသည္ displayValue နဲ. font ကုိ လက္ခံပါတယ္။ Text class မွာသိမ္းမဲ့ property တခုခ်င္းအတြက္ကုိ Builder မွာ method တခုစီေရးရမွာပါ။ 
-လြယ္လြယ္ေလးပါ ၀င္လာတဲ့ parameter ကုိသိမ္းတယ္ ေနာက္ သူ. object this ကုိ return ၿပန္တယ္။ ဘာေၾကာင့္ this ကုိ return ၿပန္လဲဆုိေတာ့ method chaining pattern ကုိသံုးလုိ.ရေအာင္ပါ။ jQuery မွာလုိေပါ့။ အဲ့တာေၾကာင့္ဒီလို method call ေတြေရးႏုိင္တာပါ။
+ - အေပၚက method ၂ခုသည္ displayValue နဲ. font ကုိ လက္ခံပါတယ္။ Text class
+   မွာသိမ္းမဲ့ property တခုခ်င္းအတြက္ကုိ Builder မွာ method
+   တခုစီေရးရမွာပါ။
+ - လြယ္လြယ္ေလးပါ ၀င္လာတဲ့ parameter ကုိသိမ္းတယ္ ေနာက္ သူ. object this
+   ကုိ return ၿပန္တယ္။ ဘာေၾကာင့္ this ကုိ return ၿပန္လဲဆုိေတာ့ method
+   chaining pattern ကုိသံုးလုိ.ရေအာင္ပါ။
+ - jQuery မွာလုိေပါ့။ အဲ့တာေၾကာင့္ဒီလို method call ေတြေရးႏုိင္တာပါ။
 
     new Text.Builder()  
     .color("green")  
     .displayValue("Hello")
 
-အေပၚက code မွာ new Text.Builder(). သည္ Text class ထဲက Builder object ကုိ new သံုးၿပီး constructor ေဆာက္တာပါ။ ေနာက္ new သည္ object return ၿပန္တဲ့အတြက္ builder object ရဲ. method ေတြၿဖစ္တဲ့ color ကိုေခၚလုိ.ရပါမယ္။ color method သည္ return this လို.ၿပန္ထားတဲ့အတြက္ builder object ကုိ return ၿပန္မယ္။ ဒါေၾကာင့္ေနာက္ထပ္ method ေတြကို dot ေခါက္ၿပီးဆက္တုိက္ ေခၚလို.ရမယ္။ ဒါကို method chaining pattern လို.ေခၚၾကပါတယ္။ ေနာက္ Builder pattern ရဲ. Text object construction ကုိ ဒီလိုေရးပါတယ္
+အေပၚက code မွာ new Text.Builder(). သည္ Text class ထဲက Builder object ကုိ new သံုးၿပီး constructor ေဆာက္တာပါ။ ေနာက္ new သည္ object return ၿပန္တဲ့အတြက္ builder object ရဲ. method ေတြၿဖစ္တဲ့ color ကိုေခၚလုိ.ရပါမယ္။ 
+color method သည္ return this လို.ၿပန္ထားတဲ့အတြက္ builder object ကုိ return ၿပန္မယ္။ 
+
+> ဒါေၾကာင့္ေနာက္ထပ္ method ေတြကို dot ေခါက္ၿပီးဆက္တုိက္ ေခၚလို.ရမယ္။
+> ဒါကို method chaining pattern လို.ေခၚၾကပါတယ္။
+
+ ေနာက္ Builder pattern ရဲ. Text object construction ကုိ ဒီလိုေရးပါတယ္
     return this;  
     }
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTMwNTQxOTAwLDIxNDU0NTM4NTgsNjIyOT
-EyNzgsLTE0NDk0ODAzOCwyOTIyMjEyNDMsMTk0MzQ1NDU5Miwx
-NzcyNzkyOTIsNjIwNjEzMTU1LDE2NjM4MjcxNDcsLTQ1Mzc4ND
-MwNiwtNDcxODYxNTM2LC0xNzkxNjc2NTM4LC0xOTM1MzM3OTg4
-LDM1MjQ2OTM4NCwxMjIwNzgzMjg4LDM2NjkxMTAwMywxMzk5OT
-UyMzgsNDUyNjE3MTY4LDgzNjAyODE0MSwtMTc3NDI2NDM0MV19
-
+eyJoaXN0b3J5IjpbMTM5MDQ5NDQwNSwyMTQ1NDUzODU4LDYyMj
+kxMjc4LC0xNDQ5NDgwMzgsMjkyMjIxMjQzLDE5NDM0NTQ1OTIs
+MTc3Mjc5MjkyLDYyMDYxMzE1NSwxNjYzODI3MTQ3LC00NTM3OD
+QzMDYsLTQ3MTg2MTUzNiwtMTc5MTY3NjUzOCwtMTkzNTMzNzk4
+OCwzNTI0NjkzODQsMTIyMDc4MzI4OCwzNjY5MTEwMDMsMTM5OT
+k1MjM4LDQ1MjYxNzE2OCw4MzYwMjgxNDEsLTE3NzQyNjQzNDFd
+fQ==
 -->
