@@ -396,12 +396,35 @@ color method သည္ return this လို.ၿပန္ထားတဲ့အ�
     return text;  
     }
 
+> User ကေန builder object ကို parameter
+> ေတြေပးၿပီးလုိ.စိတ္ၾကိဳက္ၿပီဆုိရင္ build ဆုိတဲ့ method
+> ကုိေခၚလုိက္ရမွာပါ
+
+။ ဒါဆုိ builder object ကုိ Text contructor ထဲကိုေပးလုိက္မွာပါ။ Text Constructor ကေန Builder Object ရဲ. properties ေတြကို ကူးၿပီး သူ. Text object ေဆာက္မွာပါ။ ဒီေတာ့ Text object ေဆာက္ခ်င္ရင္ဒီလိုသံုးလို.ရပါၿပီ  
+
+    Text text = new Text.Builder()  
+    .color("green")  
+    .displayValue("Hello")  
+    .decoration("bold")  
+    .build();  
+    System.out.println("Text "+text);
+
+> အဲ့ေတာ့ ဘာေကာင္းလဲဆုိေတာ့ ကိုၾကိဳက္တဲ့ parameter ေတြကို ဥပမာ color
+> အရင္ထဲ့မလား displayValue အရင္ထဲ့မလား ၾကိဳက္တာလုပ္လုိ.ရတယ္ မထဲ့လဲရတယ္ ။
+> method တခုခ်င္းကုိေခၚရင္ properties ေတြကုိ builder object ရဲ.
+> properties အေနနဲ.ခနသိမ္းမယ္ ။ ပီးေတာ့မွ build ကိုေခၚလိုက္မယ္ ဒါဆုိ
+> build method ကေန Builder object ကို Text constructor ကိုပို.မယ္ Text
+> contructor မွာ builder ကပုိ.တဲ့ properties ေတြကို သူ. Text Object
+> ရေအာင္ ေဆာက္မယ္ ဒီနည္းနဲ.ရွင္းသြားတာပါ။ က်န္တဲ့ language ေတြနဲ.လဲ
+> ဒီသေဘာတရားပါပဲ။
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTUzODYwNjMsMjE0NTQ1Mzg1OCw2Mj
-I5MTI3OCwtMTQ0OTQ4MDM4LDI5MjIyMTI0MywxOTQzNDU0NTky
-LDE3NzI3OTI5Miw2MjA2MTMxNTUsMTY2MzgyNzE0NywtNDUzNz
-g0MzA2LC00NzE4NjE1MzYsLTE3OTE2NzY1MzgsLTE5MzUzMzc5
-ODgsMzUyNDY5Mzg0LDEyMjA3ODMyODgsMzY2OTExMDAzLDEzOT
-k5NTIzOCw0NTI2MTcxNjgsODM2MDI4MTQxLC0xNzc0MjY0MzQx
-XX0=
+eyJoaXN0b3J5IjpbLTY3ODc4OTE2MSwyMTQ1NDUzODU4LDYyMj
+kxMjc4LC0xNDQ5NDgwMzgsMjkyMjIxMjQzLDE5NDM0NTQ1OTIs
+MTc3Mjc5MjkyLDYyMDYxMzE1NSwxNjYzODI3MTQ3LC00NTM3OD
+QzMDYsLTQ3MTg2MTUzNiwtMTc5MTY3NjUzOCwtMTkzNTMzNzk4
+OCwzNTI0NjkzODQsMTIyMDc4MzI4OCwzNjY5MTEwMDMsMTM5OT
+k1MjM4LDQ1MjYxNzE2OCw4MzYwMjgxNDEsLTE3NzQyNjQzNDFd
+fQ==
 -->
