@@ -381,6 +381,7 @@ Greek ဘာသာစကား Poly (မ်ားစြာေသာ) Morph( ပ�
     new Text.Builder()  
     .color("green")  
     .displayValue("Hello")
+    
 
 အေပၚက code မွာ new Text.Builder(). သည္ Text class ထဲက Builder object ကုိ new သံုးၿပီး constructor ေဆာက္တာပါ။ ေနာက္ new သည္ object return ၿပန္တဲ့အတြက္ builder object ရဲ. method ေတြၿဖစ္တဲ့ color ကိုေခၚလုိ.ရပါမယ္။ 
 color method သည္ return this လို.ၿပန္ထားတဲ့အတြက္ builder object ကုိ return ၿပန္မယ္။ 
@@ -389,11 +390,13 @@ color method သည္ return this လို.ၿပန္ထားတဲ့အ�
 > ဒါကို method chaining pattern လို.ေခၚၾကပါတယ္။
 
  ေနာက္ Builder pattern ရဲ. Text object construction ကုိ ဒီလိုေရးပါတယ္
-    return this;  
-    }
-
+    
+Text build() {  
+Text text = new Text(this);  
+return text;  
+}
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5MDQ5NDQwNSwyMTQ1NDUzODU4LDYyMj
+eyJoaXN0b3J5IjpbLTk0MDk3NzA4NSwyMTQ1NDUzODU4LDYyMj
 kxMjc4LC0xNDQ5NDgwMzgsMjkyMjIxMjQzLDE5NDM0NTQ1OTIs
 MTc3Mjc5MjkyLDYyMDYxMzE1NSwxNjYzODI3MTQ3LC00NTM3OD
 QzMDYsLTQ3MTg2MTUzNiwtMTc5MTY3NjUzOCwtMTkzNTMzNzk4
