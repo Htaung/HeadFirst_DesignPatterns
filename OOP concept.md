@@ -369,11 +369,20 @@ Greek ဘာသာစကား Poly (မ်ားစြာေသာ) Morph( ပ�
     }  
     Builder font(String fontName) {  
     this.font = fontName;  
+
+အေပၚက method ၂ခုသည္ displayValue နဲ. font ကုိ လက္ခံပါတယ္။ Text class မွာသိမ္းမဲ့ property တခုခ်င္းအတြက္ကုိ Builder မွာ method တခုစီေရးရမွာပါ။ 
+လြယ္လြယ္ေလးပါ ၀င္လာတဲ့ parameter ကုိသိမ္းတယ္ ေနာက္ သူ. object this ကုိ return ၿပန္တယ္။ ဘာေၾကာင့္ this ကုိ return ၿပန္လဲဆုိေတာ့ method chaining pattern ကုိသံုးလုိ.ရေအာင္ပါ။ jQuery မွာလုိေပါ့။ အဲ့တာေၾကာင့္ဒီလို method call ေတြေရးႏုိင္တာပါ။
+
+    new Text.Builder()  
+    .color("green")  
+    .displayValue("Hello")
+
+အေပၚက code မွာ new Text.Builder(). သည္ Text class ထဲက Builder object ကုိ new သံုးၿပီး constructor ေဆာက္တာပါ။ ေနာက္ new သည္ object return ၿပန္တဲ့အတြက္ builder object ရဲ. method ေတြၿဖစ္တဲ့ color ကိုေခၚလုိ.ရပါမယ္။ color method သည္ return this လို.ၿပန္ထားတဲ့အတြက္ builder object ကုိ return ၿပန္မယ္။ ဒါေၾကာင့္ေနာက္ထပ္ method ေတြကို dot ေခါက္ၿပီးဆက္တုိက္ ေခၚလို.ရမယ္။ ဒါကို method chaining pattern လို.ေခၚၾကပါတယ္။ ေနာက္ Builder pattern ရဲ. Text object construction ကုိ ဒီလိုေရးပါတယ္
     return this;  
     }
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjM4Nzc1MjY3LDIxNDU0NTM4NTgsNjIyOT
+eyJoaXN0b3J5IjpbOTMwNTQxOTAwLDIxNDU0NTM4NTgsNjIyOT
 EyNzgsLTE0NDk0ODAzOCwyOTIyMjEyNDMsMTk0MzQ1NDU5Miwx
 NzcyNzkyOTIsNjIwNjEzMTU1LDE2NjM4MjcxNDcsLTQ1Mzc4ND
 MwNiwtNDcxODYxNTM2LC0xNzkxNjc2NTM4LC0xOTM1MzM3OTg4
