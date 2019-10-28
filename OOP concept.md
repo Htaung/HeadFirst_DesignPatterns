@@ -274,12 +274,17 @@ Greek ဘာသာစကား Poly (မ်ားစြာေသာ) Morph( ပ�
    ခုေလာက္ေပးၿပီးေတာ့ပဲေဆာက္ခ်င္လဲေဆာက္မယ္။
  - ဒါဆုိရင္ Constructor နဲ.ေရးဖုိ.ကေတာ္ေတာ္ခက္သြားပါၿပီ။
 
+## သူ.ရဲ.ရည္ရြယ္ခ်က္က Complex Object ေတြကိုတည္ေဆာက္တဲ့အခါမွာ Object က parameter အမ်ားၾကီးကို object creation stage မွာလက္ခံတယ္။
+
+ - parameter အားလံုးကိုလဲ သံုးခ်င္မွသံုးမယ္။
+ - အဓိက ကေတာ့ complex set of parameter in object creation ပါပဲ။
+ Object creation မွာ parameter ေတြမ်ားလာရင္ builder pattern နဲ. solve လုပ္ရပါလိမ့္မယ္။
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3NzkwOTk3MCwyMTQ1NDUzODU4LDYyMj
-kxMjc4LC0xNDQ5NDgwMzgsMjkyMjIxMjQzLDE5NDM0NTQ1OTIs
-MTc3Mjc5MjkyLDYyMDYxMzE1NSwxNjYzODI3MTQ3LC00NTM3OD
-QzMDYsLTQ3MTg2MTUzNiwtMTc5MTY3NjUzOCwtMTkzNTMzNzk4
-OCwzNTI0NjkzODQsMTIyMDc4MzI4OCwzNjY5MTEwMDMsMTM5OT
-k1MjM4LDQ1MjYxNzE2OCw4MzYwMjgxNDEsLTE3NzQyNjQzNDFd
-fQ==
+eyJoaXN0b3J5IjpbNDEwOTA1ODEyLDIxNDU0NTM4NTgsNjIyOT
+EyNzgsLTE0NDk0ODAzOCwyOTIyMjEyNDMsMTk0MzQ1NDU5Miwx
+NzcyNzkyOTIsNjIwNjEzMTU1LDE2NjM4MjcxNDcsLTQ1Mzc4ND
+MwNiwtNDcxODYxNTM2LC0xNzkxNjc2NTM4LC0xOTM1MzM3OTg4
+LDM1MjQ2OTM4NCwxMjIwNzgzMjg4LDM2NjkxMTAwMywxMzk5OT
+UyMzgsNDUyNjE3MTY4LDgzNjAyODE0MSwtMTc3NDI2NDM0MV19
+
 -->
