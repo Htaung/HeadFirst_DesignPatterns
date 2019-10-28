@@ -363,13 +363,21 @@ Greek ဘာသာစကား Poly (မ်ားစြာေသာ) Morph( ပ�
     }  
     }
 
+    Builder displayValue(String dValue) {  
+    this.displayValue = dValue;  
+    return this;  
+    }  
+    Builder font(String fontName) {  
+    this.font = fontName;  
+    return this;  
+    }
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjgyMTI1NDEsMjE0NTQ1Mzg1OCw2Mj
-I5MTI3OCwtMTQ0OTQ4MDM4LDI5MjIyMTI0MywxOTQzNDU0NTky
-LDE3NzI3OTI5Miw2MjA2MTMxNTUsMTY2MzgyNzE0NywtNDUzNz
-g0MzA2LC00NzE4NjE1MzYsLTE3OTE2NzY1MzgsLTE5MzUzMzc5
-ODgsMzUyNDY5Mzg0LDEyMjA3ODMyODgsMzY2OTExMDAzLDEzOT
-k5NTIzOCw0NTI2MTcxNjgsODM2MDI4MTQxLC0xNzc0MjY0MzQx
-XX0=
+eyJoaXN0b3J5IjpbNjM4Nzc1MjY3LDIxNDU0NTM4NTgsNjIyOT
+EyNzgsLTE0NDk0ODAzOCwyOTIyMjEyNDMsMTk0MzQ1NDU5Miwx
+NzcyNzkyOTIsNjIwNjEzMTU1LDE2NjM4MjcxNDcsLTQ1Mzc4ND
+MwNiwtNDcxODYxNTM2LC0xNzkxNjc2NTM4LC0xOTM1MzM3OTg4
+LDM1MjQ2OTM4NCwxMjIwNzgzMjg4LDM2NjkxMTAwMywxMzk5OT
+UyMzgsNDUyNjE3MTY4LDgzNjAyODE0MSwtMTc3NDI2NDM0MV19
+
 -->
