@@ -2,6 +2,7 @@
 
 ## Object Oriented Design Pattern Series Part-5 Prototype Design Pattern
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzI0NDAzNTRdfQ==
+eyJoaXN0b3J5IjpbMzg0Mjc3Mzg4XX0=
 -->
