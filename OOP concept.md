@@ -278,9 +278,12 @@ Greek ဘာသာစကား Poly (မ်ားစြာေသာ) Morph( ပ�
 
  - parameter အားလံုးကိုလဲ သံုးခ်င္မွသံုးမယ္။
  - အဓိက ကေတာ့ complex set of parameter in object creation ပါပဲ။
- Object creation မွာ parameter ေတြမ်ားလာရင္ builder pattern နဲ. solve လုပ္ရပါလိမ့္မယ္။
+ - Object creation မွာ parameter ေတြမ်ားလာရင္ builder pattern နဲ. solve
+   လုပ္ရပါလိမ့္မယ္။
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDEwOTA1ODEyLDIxNDU0NTM4NTgsNjIyOT
+eyJoaXN0b3J5IjpbMTM4MzY3MjUzLDIxNDU0NTM4NTgsNjIyOT
 EyNzgsLTE0NDk0ODAzOCwyOTIyMjEyNDMsMTk0MzQ1NDU5Miwx
 NzcyNzkyOTIsNjIwNjEzMTU1LDE2NjM4MjcxNDcsLTQ1Mzc4ND
 MwNiwtNDcxODYxNTM2LC0xNzkxNjc2NTM4LC0xOTM1MzM3OTg4
