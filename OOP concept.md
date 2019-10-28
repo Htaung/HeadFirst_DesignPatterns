@@ -305,12 +305,71 @@ Greek ဘာသာစကား Poly (မ်ားစြာေသာ) Morph( ပ�
 
 အေပၚက class diagram အရဆုိရင္ ကြ်န္ေတာ္တုိ.က Object တခုအတြက္ တုိက္ရုိက္ parameter ေတြကိုလက္ခံမဲ့အစား သူ.အတြက္ Builder လို.ေခၚတဲ့ Object မွာ parameter ေတြကို ခနသိမ္းထားမယ္။ ေနာက္မွ build ဆုိတဲ့ method ကုိေခၚမွ သူခုနက သိမ္းထားတဲ့ parameter ေတြကေန တကယ္လိုတဲ့ Object ကုိေဆာက္ေပးမယ္ေပါ့ဗ်ာ။ Builder pattern Code ကုိၾကည့္ရေအာင္။
 
+    public class Text {  
+    String displayValue;  
+    String font;  
+    String color;  
+    String decoration;  
+    private Text(Builder builder) {  
+    this.displayValue = builder.displayValue;  
+    this.font = builder.font;  
+    this.color = builder.color;  
+    this.decoration = builder.decoration;  
+    }  
+    static class Builder  
+    {  
+    String displayValue;  
+    String font;  
+    String color;  
+    String decoration;  
+    Builder displayValue(String dValue)  
+    {  
+    this.displayValue = dValue;  
+    return this;  
+    }  
+    Builder font(String fontName)  
+    {  
+    this.font = fontName;  
+    return this;  
+    }  
+    Builder color(String color)  
+    {  
+    this.color = color;  
+    return this;  
+    }  
+    Builder decoration(String decor)  
+    {  
+    this.decoration = decor;  
+    return this;  
+    }  
+    Text build()  
+    {  
+    Text text = new Text(this);  
+    return text;  
+    }  
+    }  
+    @Override  
+    public String toString() {  
+    return "Text{" + "displayValue=" + displayValue + ", font=" + font  
+    + ", color=" + color + ", decoration=" + decoration + '}';  
+    }  
+    public static void main(String[] args) {  
+    Text text = new Text.Builder()  
+    .color("green")  
+    .displayValue("Hello")  
+    .decoration("bold")  
+    .build();  
+    System.out.println("Text "+text);  
+    }  
+    }
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1ODcyNjYxMiwyMTQ1NDUzODU4LDYyMj
-kxMjc4LC0xNDQ5NDgwMzgsMjkyMjIxMjQzLDE5NDM0NTQ1OTIs
-MTc3Mjc5MjkyLDYyMDYxMzE1NSwxNjYzODI3MTQ3LC00NTM3OD
-QzMDYsLTQ3MTg2MTUzNiwtMTc5MTY3NjUzOCwtMTkzNTMzNzk4
-OCwzNTI0NjkzODQsMTIyMDc4MzI4OCwzNjY5MTEwMDMsMTM5OT
-k1MjM4LDQ1MjYxNzE2OCw4MzYwMjgxNDEsLTE3NzQyNjQzNDFd
-fQ==
+eyJoaXN0b3J5IjpbLTE3MjgyMTI1NDEsMjE0NTQ1Mzg1OCw2Mj
+I5MTI3OCwtMTQ0OTQ4MDM4LDI5MjIyMTI0MywxOTQzNDU0NTky
+LDE3NzI3OTI5Miw2MjA2MTMxNTUsMTY2MzgyNzE0NywtNDUzNz
+g0MzA2LC00NzE4NjE1MzYsLTE3OTE2NzY1MzgsLTE5MzUzMzc5
+ODgsMzUyNDY5Mzg0LDEyMjA3ODMyODgsMzY2OTExMDAzLDEzOT
+k5NTIzOCw0NTI2MTcxNjgsODM2MDI4MTQxLC0xNzc0MjY0MzQx
+XX0=
 -->
