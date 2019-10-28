@@ -265,20 +265,21 @@ Greek ဘာသာစကား Poly (မ်ားစြာေသာ) Morph( ပ�
 ## Object Oriented Design Pattern Series Part-4 Builder Pattern
 
  - Builder pattern ကေတာ့ Creational pattern ေတြထဲကတခုပါပဲ။
-
- 
-
  - သူ.ကို ဘယ္ေနရာမွာသံုးလဲဆိုေတာ့ Complex Object ေတြေဆာက္ဖုိ. Object
    creation အတြက္လုိအပ္တဲ့ parameter ေတြမ်ားေနမယ္ဆုိရင္ Builder pattern
    ကုိသံုးပါတယ္။
+ - ဥပမာ ကြ်န္ေတာ္တုိ.ေဆာက္မဲ့ Object သည္ paramter ၅ ခု ၆
+   ခုေလာက္လိုမယ္ဆုိပါေတာ့ ။ ဒါေပမဲ့တခ်ိန္တည္းမွာလဲ parameter
+   အားလံုးသံုးခ်င္မွလဲသံုးမယ္ မသံုးပဲ ၃
+   ခုေလာက္ေပးၿပီးေတာ့ပဲေဆာက္ခ်င္လဲေဆာက္မယ္။
+ - ဒါဆုိရင္ Constructor နဲ.ေရးဖုိ.ကေတာ္ေတာ္ခက္သြားပါၿပီ။
 
- ဥပမာ ကြ်န္ေတာ္တုိ.ေဆာက္မဲ့ Object သည္ paramter ၅ ခု ၆ ခုေလာက္လိုမယ္ဆုိပါေတာ့ ။ ဒါေပမဲ့တခ်ိန္တည္းမွာလဲ parameter အားလံုးသံုးခ်င္မွလဲသံုးမယ္ မသံုးပဲ ၃ ခုေလာက္ေပးၿပီးေတာ့ပဲေဆာက္ခ်င္လဲေဆာက္မယ္။ ဒါဆုိရင္ Constructor နဲ.ေရးဖုိ.ကေတာ္ေတာ္ခက္သြားပါၿပီ။
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTU1Nzc1ODQsMjE0NTQ1Mzg1OCw2Mj
-I5MTI3OCwtMTQ0OTQ4MDM4LDI5MjIyMTI0MywxOTQzNDU0NTky
-LDE3NzI3OTI5Miw2MjA2MTMxNTUsMTY2MzgyNzE0NywtNDUzNz
-g0MzA2LC00NzE4NjE1MzYsLTE3OTE2NzY1MzgsLTE5MzUzMzc5
-ODgsMzUyNDY5Mzg0LDEyMjA3ODMyODgsMzY2OTExMDAzLDEzOT
-k5NTIzOCw0NTI2MTcxNjgsODM2MDI4MTQxLC0xNzc0MjY0MzQx
-XX0=
+eyJoaXN0b3J5IjpbLTQ3NzkwOTk3MCwyMTQ1NDUzODU4LDYyMj
+kxMjc4LC0xNDQ5NDgwMzgsMjkyMjIxMjQzLDE5NDM0NTQ1OTIs
+MTc3Mjc5MjkyLDYyMDYxMzE1NSwxNjYzODI3MTQ3LC00NTM3OD
+QzMDYsLTQ3MTg2MTUzNiwtMTc5MTY3NjUzOCwtMTkzNTMzNzk4
+OCwzNTI0NjkzODQsMTIyMDc4MzI4OCwzNjY5MTEwMDMsMTM5OT
+k1MjM4LDQ1MjYxNzE2OCw4MzYwMjgxNDEsLTE3NzQyNjQzNDFd
+fQ==
 -->
