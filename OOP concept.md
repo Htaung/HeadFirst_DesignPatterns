@@ -391,16 +391,17 @@ color method သည္ return this လို.ၿပန္ထားတဲ့အ�
 
  ေနာက္ Builder pattern ရဲ. Text object construction ကုိ ဒီလိုေရးပါတယ္
     
-Text build() {  
-Text text = new Text(this);  
-return text;  
-}
+    Text build() {  
+    Text text = new Text(this);  
+    return text;  
+    }
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0MDk3NzA4NSwyMTQ1NDUzODU4LDYyMj
-kxMjc4LC0xNDQ5NDgwMzgsMjkyMjIxMjQzLDE5NDM0NTQ1OTIs
-MTc3Mjc5MjkyLDYyMDYxMzE1NSwxNjYzODI3MTQ3LC00NTM3OD
-QzMDYsLTQ3MTg2MTUzNiwtMTc5MTY3NjUzOCwtMTkzNTMzNzk4
-OCwzNTI0NjkzODQsMTIyMDc4MzI4OCwzNjY5MTEwMDMsMTM5OT
-k1MjM4LDQ1MjYxNzE2OCw4MzYwMjgxNDEsLTE3NzQyNjQzNDFd
-fQ==
+eyJoaXN0b3J5IjpbLTE5MTUzODYwNjMsMjE0NTQ1Mzg1OCw2Mj
+I5MTI3OCwtMTQ0OTQ4MDM4LDI5MjIyMTI0MywxOTQzNDU0NTky
+LDE3NzI3OTI5Miw2MjA2MTMxNTUsMTY2MzgyNzE0NywtNDUzNz
+g0MzA2LC00NzE4NjE1MzYsLTE3OTE2NzY1MzgsLTE5MzUzMzc5
+ODgsMzUyNDY5Mzg0LDEyMjA3ODMyODgsMzY2OTExMDAzLDEzOT
+k5NTIzOCw0NTI2MTcxNjgsODM2MDI4MTQxLC0xNzc0MjY0MzQx
+XX0=
 -->
