@@ -62,8 +62,11 @@ Client ကသံုးတဲ့ေနရာမွာ firstObject တခုကု
 Prototype pattern ရဲ.အားသာခ်က္ကေတာ့ Heavy ၿဖစ္တဲ့ Object ေတြေဆာက္တဲ့ေနရာမွာ ခနခန ထပ္ေဆာက္မေနပဲ ဘံုတူတဲ့ property ေတြကို copy ကူးၿပီးသံုးတဲ့ အတြက္ computational time+memory သက္သာတာပါပဲ။ ဒါကေတာ့သူ. ေကာင္းတဲ့အခ်က္ပါပဲ။
 
 
+## Object Oriented Design Pattern Series Part-6 Adapter Design Pattern
+
+Adapter pattern ကေတာ့ Structural pattern ေတြထဲကတခုပါ။ သူကဘာလုပ္ေပးလဲဆုိေတာ့ interface မတူတဲ့ module ဒါမွမဟုတ္ code ၂ခုၾကားမွာ အလုပ္လုပ္လုိ.ရေအာင္ glue code ဒါမွမဟုတ္ bridge လုပ္ေပးတာပါ။
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODYwOTYwOTcsLTUxNjI2MDE0LDE3MT
-Q1Njk3MjEsMTQ4NzU3OTYwNSwzODQyNzczODhdfQ==
+eyJoaXN0b3J5IjpbMTAyODg5ODUxNCwtNTE2MjYwMTQsMTcxND
+U2OTcyMSwxNDg3NTc5NjA1LDM4NDI3NzM4OF19
 -->
