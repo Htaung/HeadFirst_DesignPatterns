@@ -48,9 +48,22 @@ Prototype ဆုိတဲ့ interface သည္ clone ဆုိတာကို 
     return "HeavyObject{" + "propertyGetFromDB=" + propertyGetFromDB + ", computationalHungryProperty=" + computationalHungryProperty + '}';  
     }  
     }
+rototype interface သည္ Cloneable ကို extends လုပ္ထားတဲ့အတြက္ Java runtime က clone operation ကုိခြင့္ေပးမွာပါ ။မဟုတ္ရင္ CloneNotSupportedException  
+တက္ပါလိမ့္မယ္။ ေအာက္မွာေပးထားတာကေတာ့ Client code ပါ။
+
+    public class PrototypeDemo {  
+    public static void main(String[] args) {  
+    HeavyObject firstObj = new HeavyObject();  
+    HeavyObject another = firstObj.reproducce();  
+    System.out.println(another);  
+    }  
+    }
+Client ကသံုးတဲ့ေနရာမွာ firstObject တခုကုိပဲ new operator သံုးၿပီး constructor နဲ.ေခၚပါတယ္ ပထဆံုးအၾကိမ္မွာေတာ့ heay computation နဲ.costly operation ၿဖစ္မွာပါ။ ေနာက္ object ေတြၿဖစ္တဲ့ another object ကုိက်ေတာ့ reproduce ကုိသံုးၿပီး clone လုပ္ၿပီး Object ေဆာက္ပါတယ္။ ဒါေၾကာင့္ခုနက constructor ကိုမၿဖတ္ရေတာ့ပါဘူး ။ ဒါေၾကာင့္ heavy computation+memory cost ကုိေက်ာ္ႏုိင္ပါၿပီ။  
+Prototype pattern ရဲ.အားသာခ်က္ကေတာ့ Heavy ၿဖစ္တဲ့ Object ေတြေဆာက္တဲ့ေနရာမွာ ခနခန ထပ္ေဆာက္မေနပဲ ဘံုတူတဲ့ property ေတြကို copy ကူးၿပီးသံုးတဲ့ အတြက္ computational time+memory သက္သာတာပါပဲ။ ဒါကေတာ့သူ. ေကာင္းတဲ့အခ်က္ပါပဲ။
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxNjI2MDE0LDE3MTQ1Njk3MjEsMTQ4Nz
-U3OTYwNSwzODQyNzczODhdfQ==
+eyJoaXN0b3J5IjpbLTEyODYwOTYwOTcsLTUxNjI2MDE0LDE3MT
+Q1Njk3MjEsMTQ4NzU3OTYwNSwzODQyNzczODhdfQ==
 -->
