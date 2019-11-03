@@ -88,8 +88,17 @@ Framework ဆုိတဲ့ interface တခုရိွတယ္ သူ.ကု
     }  
     }
 
+interface Framework နဲ. OldAPI မွာ add method နဲ. addItem method က အဓိပၸာယ္သေဘာတရားခ်င္းတူေပမဲ့ interface method signature ကြာတဲ့အတြက္ တြဲသံုးလို.အဆင္မေၿပပါဘူး ။ ဒါဆုိ ကြ်န္ေတာ္တုိ.က ClassAdapter လို.ေဆာက္ၿပီး OldAPI ကုိ extend လုပ္မယ္ Framework ကုိ implement လုပ္မယ္ ၿပီးေတာ့ framework method ကို override လုပ္မယ္ အဲ့ကေန OldAPI method addItem ကုိေခၚေပးလိုက္မယ္ဆုိရင္ Class Adapater code ရပါၿပီ သူတုိ. ၂ ခုအလုပ္လုပ္ႏုိင္ပါၿပီ။
+
+public class ClassAdapter extends OldAPI implements Framework{  
+@Override  
+public void add(Integer item) {  
+this.addItem(item);//Here call to old API method  
+}
+
+}
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTUwOTAwMzEsMTAyODg5ODUxNCwtNT
-E2MjYwMTQsMTcxNDU2OTcyMSwxNDg3NTc5NjA1LDM4NDI3NzM4
-OF19
+eyJoaXN0b3J5IjpbMTEyMTM3MjY4MywtMjA1NTA5MDAzMSwxMD
+I4ODk4NTE0LC01MTYyNjAxNCwxNzE0NTY5NzIxLDE0ODc1Nzk2
+MDUsMzg0Mjc3Mzg4XX0=
 -->
