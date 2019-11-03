@@ -66,10 +66,14 @@ Prototype pattern ရဲ.အားသာခ်က္ကေတာ့ Heavy ၿဖ
 
 Adapter pattern ကေတာ့ Structural pattern ေတြထဲကတခုပါ။ သူကဘာလုပ္ေပးလဲဆုိေတာ့ interface မတူတဲ့ module ဒါမွမဟုတ္ code ၂ခုၾကားမွာ အလုပ္လုပ္လုိ.ရေအာင္ glue code ဒါမွမဟုတ္ bridge လုပ္ေပးတာပါ။
 
-Class Adpater  
+
 Adapter မွာ ၂မ်ိဳးရိွပါတယ္ Class Adapter နဲ. Object Adatper ဆုိၿပီးေတာ့။ အေပၚကၿပထားတဲ့ UML diagram ကေတာ့ Class Adapter ၿဖစ္ၿပီးေတာ့ ေအာက္ကေကာင္ကေတာ့ Object Adapter ပါပဲ။
+
+## Object Adapter
+Intent  
+Module ေတြ Class ေတြၾကားထဲမွာ သံုးရမဲ့ code ေတြသည္ interface အားၿမင့္မတူဘူး ဒါေပမဲ့ ေခၚတဲ့ေကာင္ေတြကလဲ မၿပင္ႏုိင္ဘူးဆုိရင္ Adapter pattern ကိုသံုးရမွာပါ။
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4NzYyMTE4OCwxMDI4ODk4NTE0LC01MT
-YyNjAxNCwxNzE0NTY5NzIxLDE0ODc1Nzk2MDUsMzg0Mjc3Mzg4
-XX0=
+eyJoaXN0b3J5IjpbNTQ0NTg4MDI5LDEwMjg4OTg1MTQsLTUxNj
+I2MDE0LDE3MTQ1Njk3MjEsMTQ4NzU3OTYwNSwzODQyNzczODhd
+fQ==
 -->
