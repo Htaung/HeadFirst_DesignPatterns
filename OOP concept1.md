@@ -137,9 +137,15 @@ Framework မွာ define လုပ္ထားတဲ့ add ဆုိတဲ့
  - Client ကေနသံုးရင္ ClassAdapter အစား ObjectAdapter
    ေလးေၿပာင္းသံုးရံုပါပဲ။
 
-Adapter ကဘာေကာင္းလဲဆုိရင္ေတာ့ Legacy code ေတြမွာ interface နဲ.မကိုက္လုိ. အဆင္မေၿပဘူး ေခၚလုိ.မရဘူးဆုိရင္ ၾကားခံ Glue Code အေနနဲ.သံုးလုိ.ရေအာင္ ေၿပာင္းလုိက္လုိ.ရပါတယ္။ ဒါေပမဲ့ Design အရ မွားေနတဲ့ class ဆုိရင္ေတာ့ ဆုိခ်င္တာက OldAPI class ကုိ ထိလုိ.ရမယ္ဆုိရင္ Adapter မသံုးပဲေၿဖရွင္းတာပိုေကာင္းပါတယ္။
+ - Adapter ကဘာေကာင္းလဲဆုိရင္ေတာ့ Legacy code ေတြမွာ interface
+   နဲ.မကိုက္လုိ. အဆင္မေၿပဘူး ေခၚလုိ.မရဘူးဆုိရင္ ၾကားခံ Glue Code
+   အေနနဲ.သံုးလုိ.ရေအာင္ ေၿပာင္းလုိက္လုိ.ရပါတယ္။
+
+ - ဒါေပမဲ့ Design အရ မွားေနတဲ့ class ဆုိရင္ေတာ့ ဆုိခ်င္တာက OldAPI class
+   ကုိ ထိလုိ.ရမယ္ဆုိရင္ Adapter မသံုးပဲေၿဖရွင္းတာပိုေကာင္းပါတယ္။
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjQxNDYzNSwxMDY3NjcxMjQ1LC0yMD
-U1MDkwMDMxLDEwMjg4OTg1MTQsLTUxNjI2MDE0LDE3MTQ1Njk3
-MjEsMTQ4NzU3OTYwNSwzODQyNzczODhdfQ==
+eyJoaXN0b3J5IjpbNDc5MDA3NzA1LDEwNjc2NzEyNDUsLTIwNT
+UwOTAwMzEsMTAyODg5ODUxNCwtNTE2MjYwMTQsMTcxNDU2OTcy
+MSwxNDg3NTc5NjA1LDM4NDI3NzM4OF19
 -->
