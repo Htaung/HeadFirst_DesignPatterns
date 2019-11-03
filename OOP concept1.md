@@ -130,8 +130,16 @@ Framework မွာ define လုပ္ထားတဲ့ add ဆုိတဲ့
     }  
     }
 
+ - Object Adapter က inheirtance မသံုးပဲ Object composition သံုးၿပီး
+   oldAPI object ကုိေဆာက္ပါတယ္ ၿပီးေတာ့ အဲ့ကေနတဆင့္ OldAPI ရဲ. method
+   addItem ကုိေခၚပါတယ္။
+
+ - Client ကေနသံုးရင္ ClassAdapter အစား ObjectAdapter
+   ေလးေၿပာင္းသံုးရံုပါပဲ။
+
+Adapter ကဘာေကာင္းလဲဆုိရင္ေတာ့ Legacy code ေတြမွာ interface နဲ.မကိုက္လုိ. အဆင္မေၿပဘူး ေခၚလုိ.မရဘူးဆုိရင္ ၾကားခံ Glue Code အေနနဲ.သံုးလုိ.ရေအာင္ ေၿပာင္းလုိက္လုိ.ရပါတယ္။ ဒါေပမဲ့ Design အရ မွားေနတဲ့ class ဆုိရင္ေတာ့ ဆုိခ်င္တာက OldAPI class ကုိ ထိလုိ.ရမယ္ဆုိရင္ Adapter မသံုးပဲေၿဖရွင္းတာပိုေကာင္းပါတယ္။
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzNTg3NTY5MywxMDY3NjcxMjQ1LC0yMD
+eyJoaXN0b3J5IjpbLTE3MjQxNDYzNSwxMDY3NjcxMjQ1LC0yMD
 U1MDkwMDMxLDEwMjg4OTg1MTQsLTUxNjI2MDE0LDE3MTQ1Njk3
 MjEsMTQ4NzU3OTYwNSwzODQyNzczODhdfQ==
 -->
