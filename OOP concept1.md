@@ -73,22 +73,23 @@ Adapter မွာ ၂မ်ိဳးရိွပါတယ္ Class Adapter န�
 Intent  
 Module ေတြ Class ေတြၾကားထဲမွာ သံုးရမဲ့ code ေတြသည္ interface အားၿမင့္မတူဘူး ဒါေပမဲ့ ေခၚတဲ့ေကာင္ေတြကလဲ မၿပင္ႏုိင္ဘူးဆုိရင္ Adapter pattern ကိုသံုးရမွာပါ။
 
-Framework ဆုိတဲ့ interface တခုရိွတယ္ သူ.ကုိ အားလံုးကလုိက္နာရတယ္ဆုိပါစို. ။ သူမွာ add(Integer item) ဆုိတဲ့ method တခုပါတယ္ဆုိပါစုိ. ဒါေပသိ Framework နဲ.တြဲသံုးခ်င္တဲ့ legacy class တခုက်ေတာ့ addItem(Integer item) ၿဖစ္ေနေရာ ဒါဆုိသူတုိ. ၂ခုတြဲလုပ္လို.မရဘူးေပါ့။ အဲ့ဒါဆုိရင္ Class Adapter သံုးၿပီးေၿဖရွင္းလုိ.ရပါတယ္။
+Framework ဆုိတဲ့ interface တခုရိွတယ္ သူ.ကုိ အားလံုးကလုိက္နာရတယ္ဆုိပါစို. ။ သူမွာ add(Integer item) ဆုိတဲ့ method တခုပါတယ္ဆုိပါစုိ. 
+ဒါေပသိ Framework နဲ.တြဲသံုးခ်င္တဲ့ legacy class တခုက်ေတာ့ addItem(Integer item) ၿဖစ္ေနေရာ ဒါဆုိသူတုိ. ၂ခုတြဲလုပ္လို.မရဘူးေပါ့။ အဲ့ဒါဆုိရင္ Class Adapter သံုးၿပီးေၿဖရွင္းလုိ.ရပါတယ္။
 
-public interface Framework {  
-public void add(Integer item);  
-}
+    public interface Framework {  
+    public void add(Integer item);  
+    }
 
 ဒါကေတာ့ interface ပါ သူ.ကုိ အားလုံးကလုိက္နာရပါမယ္ ေအာက္ကေကာင္ကေတာ့ Old legacy code ပါသူ.ကုိလဲ တၿခားေကာင္ေတြကသံုးေနေတာ့ ၿပင္ခြင့္မရိွဘူးဆုိပါစုိ.ဗ်ာ။
+    public class OldAPI {  
+    public void addItem(Integer item )  
+    {  
+    System.out.println("Old API addItem "+item);  
+    }  
+    }
 
-public class OldAPI {  
-public void addItem(Integer item )  
-{  
-System.out.println("Old API addItem "+item);  
-}  
-}
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTU4MjE2MTI3LDEwMjg4OTg1MTQsLTUxNj
-I2MDE0LDE3MTQ1Njk3MjEsMTQ4NzU3OTYwNSwzODQyNzczODhd
-fQ==
+eyJoaXN0b3J5IjpbLTIwNTUwOTAwMzEsMTAyODg5ODUxNCwtNT
+E2MjYwMTQsMTcxNDU2OTcyMSwxNDg3NTc5NjA1LDM4NDI3NzM4
+OF19
 -->
