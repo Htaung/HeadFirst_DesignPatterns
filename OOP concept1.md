@@ -108,8 +108,17 @@ Framework မွာ define လုပ္ထားတဲ့ add ဆုိတဲ့
 
 ## OldAPI ရဲ. method အေဟာင္းၿဖစ္တဲ့ add ကိုလွမ္းေခၚလုိက္တာပါပဲ။ အဲ့ဒါသည္ adapter pattern ရဲ.အသက္ပါပဲ
 
+    public ClientDemo {  
+    public static void main(String[] args) {  
+    Framework framework = new ClassAdpater();  
+    framework.add(30);  
+    }  
+    }
+အေပၚက ClientDemo example မွာ client သည္ OldAPI ကုိ တုိက္ရုိက္မသံုးဘူးဆုိတာပါပဲ.။ ဘာလုိ.လဲဆုိေတာ့ ရည္ရြယ္ခ်က္ကိုက OldAPI ကုိသံုးခ်င္တယ္ ဒါေပမဲ့ method အေဟာင္းအေနနဲ.မဟုတ္ပဲ Framework ကေနေပးထားတဲ့ method အတုိင္းသံုးခ်င္တာ။
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDY4ODY1OTAsMTA2NzY3MTI0NSwtMj
-A1NTA5MDAzMSwxMDI4ODk4NTE0LC01MTYyNjAxNCwxNzE0NTY5
-NzIxLDE0ODc1Nzk2MDUsMzg0Mjc3Mzg4XX0=
+eyJoaXN0b3J5IjpbLTU3MjMyODEzMywxMDY3NjcxMjQ1LC0yMD
+U1MDkwMDMxLDEwMjg4OTg1MTQsLTUxNjI2MDE0LDE3MTQ1Njk3
+MjEsMTQ4NzU3OTYwNSwzODQyNzczODhdfQ==
 -->
