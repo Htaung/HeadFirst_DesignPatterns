@@ -16,7 +16,41 @@ Prototype ဆုိတဲ့ interface သည္ clone ဆုိတာကို 
     }  
 
 ဒါကေတာ့ Prototype interface ပါ. Java က Cloneable interface သည္ marker interface ပါ။ ဘာmethod မွမပါဘူး ဒါေပမဲ့ clone လုပ္လုိ.ရတယ္ဆုိတာကိုမွတ္ထား ဆုိတဲ့သေဘာနဲ. သံုးတဲ့အတြက္ marker interface လို.သံုးပါတယ္။
+
+## reprdouce ကလုပ္မွာသည္ clone လုပ္တဲ့ copy ပြားတဲ့ operation ပါပဲ
+
+    public class HeavyObject implements Prototype{  
+    String propertyGetFromDB;  
+    String computationalHungryProperty;  
+    static String getPropertyFromDB() {  
+    return "PropertyFromDb"; //Here assume call to db to simulate costly memory  
+    }  
+    static String getCompuationalHungryProperty() {  
+    return "ComputationHungryProperty";//Here assume call to costly computation time  
+    }  
+    public HeavyObject() {  
+    this.propertyGetFromDB = HeavyObject.getPropertyFromDB();  
+    this.computationalHungryProperty = HeavyObject.getCompuationalHungryProperty();  
+    }  
+    @Override  
+    public HeavyObject reproducce() {  
+    try {  
+    Prototype cop = (Prototype)super.clone();//Here call lang.lang.Object.clone  
+    HeavyObject newObject = (HeavyObject)cop;  
+    return newObject;  
+    } catch (CloneNotSupportedException ex) {  
+    ex.printStackTrace();  
+    }  
+    return null;  
+    }  
+    @Override  
+    public String toString() {  
+    return "HeavyObject{" + "propertyGetFromDB=" + propertyGetFromDB + ", computationalHungryProperty=" + computationalHungryProperty + '}';  
+    }  
+    }
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxNDU2OTcyMSwxNDg3NTc5NjA1LDM4ND
-I3NzM4OF19
+eyJoaXN0b3J5IjpbLTUxNjI2MDE0LDE3MTQ1Njk3MjEsMTQ4Nz
+U3OTYwNSwzODQyNzczODhdfQ==
 -->
