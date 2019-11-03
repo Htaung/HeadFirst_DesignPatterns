@@ -104,8 +104,12 @@ Framework ဆုိတဲ့ interface တခုရိွတယ္ သူ.ကု
     
     }
 
+Framework မွာ define လုပ္ထားတဲ့ add ဆုိတဲ့ method ကုိ သူ override လုပ္ေပးရမယ္ ဒါဆုိ framework အတုိင္းသူ အလုပ္လုပ္ႏုိ္င္သြားပါလိမ့္မယ္။ add method မွာ သူကဘာမွမလုပ္ပါဘူး။  
+
+## OldAPI ရဲ. method အေဟာင္းၿဖစ္တဲ့ add ကိုလွမ္းေခၚလုိက္တာပါပဲ။ အဲ့ဒါသည္ adapter pattern ရဲ.အသက္ပါပဲ
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2NzY3MTI0NSwtMjA1NTA5MDAzMSwxMD
-I4ODk4NTE0LC01MTYyNjAxNCwxNzE0NTY5NzIxLDE0ODc1Nzk2
-MDUsMzg0Mjc3Mzg4XX0=
+eyJoaXN0b3J5IjpbLTIxNDY4ODY1OTAsMTA2NzY3MTI0NSwtMj
+A1NTA5MDAzMSwxMDI4ODk4NTE0LC01MTYyNjAxNCwxNzE0NTY5
+NzIxLDE0ODc1Nzk2MDUsMzg0Mjc3Mzg4XX0=
 -->
