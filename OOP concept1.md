@@ -116,9 +116,22 @@ Framework မွာ define လုပ္ထားတဲ့ add ဆုိတဲ့
     }
 အေပၚက ClientDemo example မွာ client သည္ OldAPI ကုိ တုိက္ရုိက္မသံုးဘူးဆုိတာပါပဲ.။ ဘာလုိ.လဲဆုိေတာ့ ရည္ရြယ္ခ်က္ကိုက OldAPI ကုိသံုးခ်င္တယ္ ဒါေပမဲ့ method အေဟာင္းအေနနဲ.မဟုတ္ပဲ Framework ကေနေပးထားတဲ့ method အတုိင္းသံုးခ်င္တာ။
 
+## Object Adapter
+
+ - Object Adapter ကေတာ့ ဘာကြာမလဲဆုိေတာ့ class adapter လို inheritance
+   ကိုမသံုးပဲ object composition ကုိသံုးၿပီး အလုပ္လုပ္တာေလးပါပဲ။
+ ေအာက္က code ကုိၾကည့္ပါ။
+
+    public class ObjectAdpater implements Framework{  
+    OldAPI oldAPI = new OldAPI();//Here is object composition  
+    @Override  
+    public void add(Integer item) {  
+    oldAPI.addItem(item);//Here call to old API method  
+    }  
+    }
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3MjMyODEzMywxMDY3NjcxMjQ1LC0yMD
+eyJoaXN0b3J5IjpbMTQzNTg3NTY5MywxMDY3NjcxMjQ1LC0yMD
 U1MDkwMDMxLDEwMjg4OTg1MTQsLTUxNjI2MDE0LDE3MTQ1Njk3
 MjEsMTQ4NzU3OTYwNSwzODQyNzczODhdfQ==
 -->
