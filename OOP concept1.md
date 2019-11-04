@@ -144,8 +144,11 @@ Framework မွာ define လုပ္ထားတဲ့ add ဆုိတဲ့
  - ဒါေပမဲ့ Design အရ မွားေနတဲ့ class ဆုိရင္ေတာ့ ဆုိခ်င္တာက OldAPI class
    ကုိ ထိလုိ.ရမယ္ဆုိရင္ Adapter မသံုးပဲေၿဖရွင္းတာပိုေကာင္းပါတယ္။
 
+## Object Oriented Design Pattern Series Part-7 Bridge Design Pattern
+
+Bridge Design Pattern ကေတာ့ Structural Patternထဲမွာပါတဲ့ pattern ပါ။
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDc5MDA3NzA1LDEwNjc2NzEyNDUsLTIwNT
-UwOTAwMzEsMTAyODg5ODUxNCwtNTE2MjYwMTQsMTcxNDU2OTcy
-MSwxNDg3NTc5NjA1LDM4NDI3NzM4OF19
+eyJoaXN0b3J5IjpbLTc4MDk3Njk2Niw0NzkwMDc3MDUsMTA2Nz
+Y3MTI0NSwtMjA1NTA5MDAzMSwxMDI4ODk4NTE0LC01MTYyNjAx
+NCwxNzE0NTY5NzIxLDE0ODc1Nzk2MDUsMzg0Mjc3Mzg4XX0=
 -->
