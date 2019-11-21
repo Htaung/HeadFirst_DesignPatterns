@@ -269,10 +269,20 @@ Circle ရဲ. draw ရဲ. Rectangle ရဲ. draw မွာသက္ဆုိ�
     }  
     }
 
+## Decouple an abstraction from its implementation ဆုိတာကို လုပ္လို.ရေနတာပါပဲ။
+
+ ေကာင္းတဲ့အခ်က္ကေတာ့ 
+
+## class hierarchy ေဖာင္းပြမွဳ.ကို ကာေပးႏုိင္တယ္
+
+။ Runtime မွာ different implementation ကုိ ေၿပာင္းလုိ.၇မယ္၊ specific 
+
+## implementation အေပၚ client code က မမီွခုိတဲ့အတြက္ ေနာက္ **implementation class API** ေတြထပ္ထဲ့ရင္လြယ္မယ္ေပါ့
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzAyMTQzNzkwLDcwOTY3MTY5OCwtNzQ5Nj
-E2NjMyLDg2NTg0MzM1Miw1ODEwMzUzNzYsMTAzMTIyMTkwOCwx
-MzM0NDA3MTM2LC03ODA5NzY5NjYsNDc5MDA3NzA1LDEwNjc2Nz
-EyNDUsLTIwNTUwOTAwMzEsMTAyODg5ODUxNCwtNTE2MjYwMTQs
-MTcxNDU2OTcyMSwxNDg3NTc5NjA1LDM4NDI3NzM4OF19
+eyJoaXN0b3J5IjpbLTE1MDQ1NzM4NjcsNzA5NjcxNjk4LC03ND
+k2MTY2MzIsODY1ODQzMzUyLDU4MTAzNTM3NiwxMDMxMjIxOTA4
+LDEzMzQ0MDcxMzYsLTc4MDk3Njk2Niw0NzkwMDc3MDUsMTA2Nz
+Y3MTI0NSwtMjA1NTA5MDAzMSwxMDI4ODk4NTE0LC01MTYyNjAx
+NCwxNzE0NTY5NzIxLDE0ODc1Nzk2MDUsMzg0Mjc3Mzg4XX0=
 -->
