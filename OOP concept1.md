@@ -302,13 +302,20 @@ Nested child ေတြ မပါေတာ့တဲ့ object ေတြကို 
 
 ## Leaf ကေတာ့ View ၿဖစ္မွာပါ။ 
 
-## Composite ကေတာ့ ViewGroup ပါပဲ။ သူ.မွာ child element ေတြပါႏုိင္ပါတယ္။
+#
+
+ - Composite ကေတာ့ ViewGroup ပါပဲ။
+ - သူ.မွာ child element ေတြပါႏုိင္ပါတယ္။ ViewGroup ထဲမွာ View ေတြေရာ   
+   ViewGroup ေတြပါ ၾကိဳက္သေလာက္ပါႏုိင္ပါတယ္။
+ - ဒီေနရာမွာ Composite မွာ add ရယ္ remove ရယ္ getChild ဆုိတာရယ္ရိွပါတယ္။
+   သူတုိ.ကေတာ့ Compositve ထဲကို child element ေတြ ထဲ့ခ်င္တဲ့အခါ ရယ္
+   traverse လုပ္ဖုိ.ရယ္သံုးတာပါ။
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5ODMyNzg0NiwtMTUwNDU3Mzg2Nyw3MD
-k2NzE2OTgsLTc0OTYxNjYzMiw4NjU4NDMzNTIsNTgxMDM1Mzc2
-LDEwMzEyMjE5MDgsMTMzNDQwNzEzNiwtNzgwOTc2OTY2LDQ3OT
-AwNzcwNSwxMDY3NjcxMjQ1LC0yMDU1MDkwMDMxLDEwMjg4OTg1
-MTQsLTUxNjI2MDE0LDE3MTQ1Njk3MjEsMTQ4NzU3OTYwNSwzOD
-QyNzczODhdfQ==
+eyJoaXN0b3J5IjpbNTA2MzEwMjI2LC0xNTA0NTczODY3LDcwOT
+Y3MTY5OCwtNzQ5NjE2NjMyLDg2NTg0MzM1Miw1ODEwMzUzNzYs
+MTAzMTIyMTkwOCwxMzM0NDA3MTM2LC03ODA5NzY5NjYsNDc5MD
+A3NzA1LDEwNjc2NzEyNDUsLTIwNTUwOTAwMzEsMTAyODg5ODUx
+NCwtNTE2MjYwMTQsMTcxNDU2OTcyMSwxNDg3NTc5NjA1LDM4ND
+I3NzM4OF19
 -->
