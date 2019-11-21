@@ -178,10 +178,18 @@ implementation class ေတြကို တုိက္ရုိက္ေခၚ�
 
 Client ကေတာ့ Circle, Rectangle ဆုိတဲ့ abstraction ေတြနဲ.အလုပ္လုပ္သြားႏုိင္မွာပါ။ ဘယ္ specific implementation ဆုိတာကိုသိစရာမလိုေတာ့ပါဘူး။
 
+အရင္ပံုဆုိရင္ SVG drawing အတြက္ဆုိရင္ ရိွသမွ် class ေတြလိုက္ၾကည့္ရမယ္) ခုက်ေတာ့ SVGAPI ေအာက္မွာၾကည့္လိုက္တာနဲ.အကုန္ရပါၿပီ။ ဒါကို SRP (Single Responsibility Principle) လို.ေခၚပါတယ္။
+
+## အဲ့ေတာ့ ခုပံုစံအရဆုိရင္ Abstraction ၿဖစ္တဲ့ Rectangle ,Circle နဲ. implementation ၿဖစ္တဲ့ SVGAPI နဲ. CanvasAPI ကုိခြဲထုတ္လုိ.ရပါၿပီ။
+
+Coupling မၿဖစ္ေတာ့ဘူး အဲ့ေတာ့ ေနာက္ထပ္ API တခုထပ္ထဲ့မယ္ဆုိရင္ class hierarchy ေတြမမ်ားပဲ class တခုပဲထဲ့လို.အဆင္ေၿပပါၿပီ။  
+ေအာက္ကေတာ့ GoF မွာေပးထားတဲ့ Bridge ရဲ. class diagram ပါ။  
+Code ကေတာ့ရွင္းပါတယ္။
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTgxMDM1Mzc2LDEwMzEyMjE5MDgsMTMzND
-QwNzEzNiwtNzgwOTc2OTY2LDQ3OTAwNzcwNSwxMDY3NjcxMjQ1
-LC0yMDU1MDkwMDMxLDEwMjg4OTg1MTQsLTUxNjI2MDE0LDE3MT
-Q1Njk3MjEsMTQ4NzU3OTYwNSwzODQyNzczODhdfQ==
+eyJoaXN0b3J5IjpbLTE2MjQ1OTkzMDAsNTgxMDM1Mzc2LDEwMz
+EyMjE5MDgsMTMzNDQwNzEzNiwtNzgwOTc2OTY2LDQ3OTAwNzcw
+NSwxMDY3NjcxMjQ1LC0yMDU1MDkwMDMxLDEwMjg4OTg1MTQsLT
+UxNjI2MDE0LDE3MTQ1Njk3MjEsMTQ4NzU3OTYwNSwzODQyNzcz
+ODhdfQ==
 -->
