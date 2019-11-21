@@ -161,10 +161,12 @@ Decouple လုပ္တယ္ဆုိတာ တခုနဲ.တခု ကိ�
 
 ## Implementation detail ဆုိတာကေတာ့ ဒီ code ကုိ implment လုပ္ဖုိ.အတြက္ ဘယ္ class ဘယ္ method ဆုိတာကို ေခၚတဲ့သူက သိေနရမယ္ ဒီလိုဆုိခ်င္တာပါ။
 
-
+**Polymorphism** လိုပုံစံမ်ိ္ဳး မွာ 
+Shape s = new CanvasRectangle();  
+s = new SVGRectangle();
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzMTIyMTkwOCwxMzM0NDA3MTM2LC03OD
-A5NzY5NjYsNDc5MDA3NzA1LDEwNjc2NzEyNDUsLTIwNTUwOTAw
-MzEsMTAyODg5ODUxNCwtNTE2MjYwMTQsMTcxNDU2OTcyMSwxND
-g3NTc5NjA1LDM4NDI3NzM4OF19
+eyJoaXN0b3J5IjpbNjM5OTIwMTE3LDEwMzEyMjE5MDgsMTMzND
+QwNzEzNiwtNzgwOTc2OTY2LDQ3OTAwNzcwNSwxMDY3NjcxMjQ1
+LC0yMDU1MDkwMDMxLDEwMjg4OTg1MTQsLTUxNjI2MDE0LDE3MT
+Q1Njk3MjEsMTQ4NzU3OTYwNSwzODQyNzczODhdfQ==
 -->
