@@ -288,11 +288,18 @@ Composite Design pattern က Structural pattern တခုပါ။
 
 သူက Tree ပံုစံ Hierarchcy object ေတြကို တည္ေဆာက္ၿပီး သူတုိ.ကုိ same interface နဲ.ထိန္းခ်င္ရင္သံုးပါတယ္။
 အဓိက ကေတာ့ object ေတြဟာ hierarchical structure နဲ.အထဲမွာ တဆင့္ၿခင္းရိွေနမယ္ဆုိရင္ ဒီ pattern နဲ.တည္ေဆာက္ယူလို.ရပါတယ္။
+
+Intent  
+"Compose objects into tree structure to represent part-whole hierarchies.Composite lets client treat individual objects and compositions of objects uniformly".
+
+## Object ေတြကို tree structure အေနနဲ. တည္ေဆာက္ၿပီး ေဆာက္ထားတဲ့ object ေတြကို uniformly treat လုပ္ခ်င္တာပါ။
+
+individual ရယ္ Composite ရယ္မခြဲပဲ သံုးလို.ရခ်င္တယ္ သံုးခ်င္တယ္ဆုိတဲ့ အဓိပၸာယ္ပါ။
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3OTMzMzY5MiwtMTUwNDU3Mzg2Nyw3MD
-k2NzE2OTgsLTc0OTYxNjYzMiw4NjU4NDMzNTIsNTgxMDM1Mzc2
-LDEwMzEyMjE5MDgsMTMzNDQwNzEzNiwtNzgwOTc2OTY2LDQ3OT
-AwNzcwNSwxMDY3NjcxMjQ1LC0yMDU1MDkwMDMxLDEwMjg4OTg1
-MTQsLTUxNjI2MDE0LDE3MTQ1Njk3MjEsMTQ4NzU3OTYwNSwzOD
-QyNzczODhdfQ==
+eyJoaXN0b3J5IjpbMzI5NTExMjQ5LC0xNTA0NTczODY3LDcwOT
+Y3MTY5OCwtNzQ5NjE2NjMyLDg2NTg0MzM1Miw1ODEwMzUzNzYs
+MTAzMTIyMTkwOCwxMzM0NDA3MTM2LC03ODA5NzY5NjYsNDc5MD
+A3NzA1LDEwNjc2NzEyNDUsLTIwNTUwOTAwMzEsMTAyODg5ODUx
+NCwtNTE2MjYwMTQsMTcxNDU2OTcyMSwxNDg3NTc5NjA1LDM4ND
+I3NzM4OF19
 -->
