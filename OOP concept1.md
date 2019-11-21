@@ -176,11 +176,11 @@ implementation class ေတြကို တုိက္ရုိက္ေခၚ�
 
 ## ဥပမာ ဒီေနရာမွာ implementation ကို interface တခုအေနနဲ.ထားၿပီး class Diagram ကိုဒီလိုၿပန္ေဆာက္လိုက္မယ္ဆုိရင္ implementation ကို runtime မွာပါခ်ိန္းလို.ရမွာပါ။
 
-lient ကေတာ့ Circle, Rectangle ဆုိတဲ့ abstraction ေတြနဲ.အလုပ္လုပ္သြားႏုိင္မွာပါ။ ဘယ္ specific implementation ဆုိတာကိုသိစရာမလိုေတာ့ပါဘူး။
+Client ကေတာ့ Circle, Rectangle ဆုိတဲ့ abstraction ေတြနဲ.အလုပ္လုပ္သြားႏုိင္မွာပါ။ ဘယ္ specific implementation ဆုိတာကိုသိစရာမလိုေတာ့ပါဘူး။
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzM1NTgwNjM3LDEwMzEyMjE5MDgsMTMzND
+eyJoaXN0b3J5IjpbNTgxMDM1Mzc2LDEwMzEyMjE5MDgsMTMzND
 QwNzEzNiwtNzgwOTc2OTY2LDQ3OTAwNzcwNSwxMDY3NjcxMjQ1
 LC0yMDU1MDkwMDMxLDEwMjg4OTg1MTQsLTUxNjI2MDE0LDE3MT
 Q1Njk3MjEsMTQ4NzU3OTYwNSwzODQyNzczODhdfQ==
