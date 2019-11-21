@@ -234,25 +234,28 @@ void drawRectangle();
 
 ေအာက္က Circle နဲ. Rectangle ပါ။
 
-public class Circle extends Shape{  
-public Circle(DrawingAPI api) {  
-super(api); // call parent constructor  
-}  
-@Override  
-void draw() {  
-api.drawCircle();  
-}  
-}  
-public class Rectangle extends Shape{  
-public Rectangle(DrawingAPI api) {  
-super(api);  
-}  
-@Override  
-void draw() {  
-api.drawRectangle();  
-}  
-}  
-Circle ရဲ. draw ရဲ. Rectangle ရဲ. draw မွာသက္ဆုိင္ရာ API ရဲ. drawCircle ,drawRectanlge ကိုေခၚပါတယ္ဒါေပမဲ့ ဒီမွာသတိထားရမွာက ဘယ္ API ဆုိတာမပါပါဘူး ဒါသည္ loose coupling ၿဖစ္ေအာင္လုပ္ထားတာလို.ဆုိရမွာပါ။ ၾကိဳက္တဲ့ API နဲ.တြဲသံုးလုိ.ရတယ္ေပါ့ဗ်ာ။ ေအာက္ကေတာ့ Client code ပါ။  
+    public class Circle extends Shape{  
+    public Circle(DrawingAPI api) {  
+    super(api); // call parent constructor  
+    }  
+    @Override  
+    void draw() {  
+    api.drawCircle();  
+    }  
+    }  
+    public class Rectangle extends Shape{  
+    public Rectangle(DrawingAPI api) {  
+    super(api);  
+    }  
+    @Override  
+    void draw() {  
+    api.drawRectangle();  
+    }  
+    }
+
+  
+Circle ရဲ. draw ရဲ. Rectangle ရဲ. draw မွာသက္ဆုိင္ရာ API ရဲ. drawCircle ,drawRectanlge ကိုေခၚပါတယ္
+ဒါေပမဲ့ ဒီမွာသတိထားရမွာက ဘယ္ API ဆုိတာမပါပါဘူး ဒါသည္ loose coupling ၿဖစ္ေအာင္လုပ္ထားတာလို.ဆုိရမွာပါ။ ၾကိဳက္တဲ့ API နဲ.တြဲသံုးလုိ.ရတယ္ေပါ့ဗ်ာ။ ေအာက္ကေတာ့ Client code ပါ။  
 public class BridgeDemo {  
 public static void main(String[] args) {  
 DrawingAPI api = new SVGApi();  
@@ -265,9 +268,9 @@ s.draw();
 }  
 }
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0OTYxNjYzMiw4NjU4NDMzNTIsNTgxMD
-M1Mzc2LDEwMzEyMjE5MDgsMTMzNDQwNzEzNiwtNzgwOTc2OTY2
-LDQ3OTAwNzcwNSwxMDY3NjcxMjQ1LC0yMDU1MDkwMDMxLDEwMj
-g4OTg1MTQsLTUxNjI2MDE0LDE3MTQ1Njk3MjEsMTQ4NzU3OTYw
-NSwzODQyNzczODhdfQ==
+eyJoaXN0b3J5IjpbNzA5NjcxNjk4LC03NDk2MTY2MzIsODY1OD
+QzMzUyLDU4MTAzNTM3NiwxMDMxMjIxOTA4LDEzMzQ0MDcxMzYs
+LTc4MDk3Njk2Niw0NzkwMDc3MDUsMTA2NzY3MTI0NSwtMjA1NT
+A5MDAzMSwxMDI4ODk4NTE0LC01MTYyNjAxNCwxNzE0NTY5NzIx
+LDE0ODc1Nzk2MDUsMzg0Mjc3Mzg4XX0=
 -->
