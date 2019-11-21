@@ -147,8 +147,13 @@ Framework မွာ define လုပ္ထားတဲ့ add ဆုိတဲ့
 ## Object Oriented Design Pattern Series Part-7 Bridge Design Pattern
 
 Bridge Design Pattern ကေတာ့ Structural Patternထဲမွာပါတဲ့ pattern ပါ။
+
+##  Decouple an abstraction from its implementation so that the two can > vary independently.
+
+Decouple လုပ္တယ္ဆုိတာ တခုနဲ.တခု ကိုအေသခ်ိတ္ထားတာဲ (class တခုမွာ ေနာက္ class တခုကုိပဲသံုးထားတယ္ abstract,interface ကိုမသံုးဘူး ဒါဆုိေနာင္တခ်ိန္မွာ အစားထုိးသံုးလို.မရဘူး။ extend လုပ္ဖုိ.ခက္မယ္, abstract,interface ကိုသာသံုးထားရင္ သူတုိ.က ဆင္းလာတဲ့ေကာင္ေတြနဲ.သံုးလုိ.ရလို. extend ရတာလြယ္မယ္).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4MDk3Njk2Niw0NzkwMDc3MDUsMTA2Nz
-Y3MTI0NSwtMjA1NTA5MDAzMSwxMDI4ODk4NTE0LC01MTYyNjAx
-NCwxNzE0NTY5NzIxLDE0ODc1Nzk2MDUsMzg0Mjc3Mzg4XX0=
+eyJoaXN0b3J5IjpbLTEzMDQ5OTA0NzAsLTc4MDk3Njk2Niw0Nz
+kwMDc3MDUsMTA2NzY3MTI0NSwtMjA1NTA5MDAzMSwxMDI4ODk4
+NTE0LC01MTYyNjAxNCwxNzE0NTY5NzIxLDE0ODc1Nzk2MDUsMz
+g0Mjc3Mzg4XX0=
 -->
