@@ -299,8 +299,13 @@ individual ရယ္ Composite ရယ္မခြဲပဲ သံုးလို
 Component ကေတာ့ အားလံုးသံုးမဲ့ (Leaft, Composite) ကေနသံုးမဲ့ operation ေတြစုထားတာပါ။
 
 Nested child ေတြ မပါေတာ့တဲ့ object ေတြကို leaf လို.သတ္မွတ္ရမွာပါ။
+
+## Leaf ကေတာ့ View ၿဖစ္မွာပါ။ 
+
+## Composite ကေတာ့ ViewGroup ပါပဲ။ သူ.မွာ child element ေတြပါႏုိင္ပါတယ္။
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyNzIwMjc3NywtMTUwNDU3Mzg2Nyw3MD
+eyJoaXN0b3J5IjpbLTI5ODMyNzg0NiwtMTUwNDU3Mzg2Nyw3MD
 k2NzE2OTgsLTc0OTYxNjYzMiw4NjU4NDMzNTIsNTgxMDM1Mzc2
 LDEwMzEyMjE5MDgsMTMzNDQwNzEzNiwtNzgwOTc2OTY2LDQ3OT
 AwNzcwNSwxMDY3NjcxMjQ1LC0yMDU1MDkwMDMxLDEwMjg4OTg1
