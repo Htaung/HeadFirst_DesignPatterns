@@ -255,22 +255,24 @@ void drawRectangle();
 
   
 Circle ရဲ. draw ရဲ. Rectangle ရဲ. draw မွာသက္ဆုိင္ရာ API ရဲ. drawCircle ,drawRectanlge ကိုေခၚပါတယ္
-ဒါေပမဲ့ ဒီမွာသတိထားရမွာက ဘယ္ API ဆုိတာမပါပါဘူး ဒါသည္ loose coupling ၿဖစ္ေအာင္လုပ္ထားတာလို.ဆုိရမွာပါ။ ၾကိဳက္တဲ့ API နဲ.တြဲသံုးလုိ.ရတယ္ေပါ့ဗ်ာ။ ေအာက္ကေတာ့ Client code ပါ။  
-public class BridgeDemo {  
-public static void main(String[] args) {  
-DrawingAPI api = new SVGApi();  
-Shape s = new Rectangle(api);  
-s.draw();
+ဒါေပမဲ့ ဒီမွာသတိထားရမွာက ဘယ္ API ဆုိတာမပါပါဘူး ဒါသည္ **loose coupling** ၿဖစ္ေအာင္လုပ္ထားတာလို.ဆုိရမွာပါ။ ၾကိဳက္တဲ့ API နဲ.တြဲသံုးလုိ.ရတယ္ေပါ့ဗ်ာ။ ေအာက္ကေတာ့ Client code ပါ။  
 
-api = new CanvasAPI();  
-s = new Circle(api);  
-s.draw();  
-}  
-}
+    public class BridgeDemo {  
+    public static void main(String[] args) {  
+    DrawingAPI api = new SVGApi();  
+    Shape s = new Rectangle(api);  
+    s.draw();
+    
+    api = new CanvasAPI();  
+    s = new Circle(api);  
+    s.draw();  
+    }  
+    }
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzA5NjcxNjk4LC03NDk2MTY2MzIsODY1OD
-QzMzUyLDU4MTAzNTM3NiwxMDMxMjIxOTA4LDEzMzQ0MDcxMzYs
-LTc4MDk3Njk2Niw0NzkwMDc3MDUsMTA2NzY3MTI0NSwtMjA1NT
-A5MDAzMSwxMDI4ODk4NTE0LC01MTYyNjAxNCwxNzE0NTY5NzIx
-LDE0ODc1Nzk2MDUsMzg0Mjc3Mzg4XX0=
+eyJoaXN0b3J5IjpbNzAyMTQzNzkwLDcwOTY3MTY5OCwtNzQ5Nj
+E2NjMyLDg2NTg0MzM1Miw1ODEwMzUzNzYsMTAzMTIyMTkwOCwx
+MzM0NDA3MTM2LC03ODA5NzY5NjYsNDc5MDA3NzA1LDEwNjc2Nz
+EyNDUsLTIwNTUwOTAwMzEsMTAyODg5ODUxNCwtNTE2MjYwMTQs
+MTcxNDU2OTcyMSwxNDg3NTc5NjA1LDM4NDI3NzM4OF19
 -->
