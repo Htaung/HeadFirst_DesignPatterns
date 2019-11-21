@@ -156,9 +156,15 @@ Decouple လုပ္တယ္ဆုိတာ တခုနဲ.တခု ကိ�
 
 ## abstract,interface ကိုသာသံုးထားရင္ သူတုိ.က ဆင္းလာတဲ့ေကာင္ေတြနဲ.သံုးလုိ.ရလို. extend ရတာလြယ္မယ္).
 
+
+## Abstraction ဆုိတာေတာ့ implementation detail ကုိ hide လုပ္ထားတာကို ေၿပာခ်င္တာပါ။
+
+## Implementation detail ဆုိတာကေတာ့ ဒီ code ကုိ implment လုပ္ဖုိ.အတြက္ ဘယ္ class ဘယ္ method ဆုိတာကို ေခၚတဲ့သူက သိေနရမယ္ ဒီလိုဆုိခ်င္တာပါ။
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzNDQwNzEzNiwtNzgwOTc2OTY2LDQ3OT
-AwNzcwNSwxMDY3NjcxMjQ1LC0yMDU1MDkwMDMxLDEwMjg4OTg1
-MTQsLTUxNjI2MDE0LDE3MTQ1Njk3MjEsMTQ4NzU3OTYwNSwzOD
-QyNzczODhdfQ==
+eyJoaXN0b3J5IjpbMTAzMTIyMTkwOCwxMzM0NDA3MTM2LC03OD
+A5NzY5NjYsNDc5MDA3NzA1LDEwNjc2NzEyNDUsLTIwNTUwOTAw
+MzEsMTAyODg5ODUxNCwtNTE2MjYwMTQsMTcxNDU2OTcyMSwxND
+g3NTc5NjA1LDM4NDI3NzM4OF19
 -->
