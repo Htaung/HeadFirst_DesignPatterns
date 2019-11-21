@@ -226,10 +226,48 @@ void drawRectangle();
     abstract void draw();  
     }
 
+## Shape class က DrawingAPI ကိုသံုးပါမယ္ ဒါေပမဲ့ ဘယ္ implementation ဆုိတာကုိမေၿပာပဲ DrawingAPI interface ကိုပဲ api ဆုိၿပီးထဲ့ထားတဲ့အတြက္ ၾကိဳက္တဲ့ implementation ကိုသံုးလို.ရမွာပါ။
+
+ ဒါကေနာက္ပိုင္း DrawingAPI ကေန တၿခား different implementation ေတြ 
+
+## ဥပမာThreeDAPI ထပ္ထဲ့ရင္လဲ အဆင္ေၿပပါတယ္။ Shape constructor မွာ ဘယ္ api နဲ.ဆြဲမလဲဆုိတာကိုလက္ခံံပါတယ္။
+
+ေအာက္က Circle နဲ. Rectangle ပါ။
+
+public class Circle extends Shape{  
+public Circle(DrawingAPI api) {  
+super(api); // call parent constructor  
+}  
+@Override  
+void draw() {  
+api.drawCircle();  
+}  
+}  
+public class Rectangle extends Shape{  
+public Rectangle(DrawingAPI api) {  
+super(api);  
+}  
+@Override  
+void draw() {  
+api.drawRectangle();  
+}  
+}  
+Circle ရဲ. draw ရဲ. Rectangle ရဲ. draw မွာသက္ဆုိင္ရာ API ရဲ. drawCircle ,drawRectanlge ကိုေခၚပါတယ္ဒါေပမဲ့ ဒီမွာသတိထားရမွာက ဘယ္ API ဆုိတာမပါပါဘူး ဒါသည္ loose coupling ၿဖစ္ေအာင္လုပ္ထားတာလို.ဆုိရမွာပါ။ ၾကိဳက္တဲ့ API နဲ.တြဲသံုးလုိ.ရတယ္ေပါ့ဗ်ာ။ ေအာက္ကေတာ့ Client code ပါ။  
+public class BridgeDemo {  
+public static void main(String[] args) {  
+DrawingAPI api = new SVGApi();  
+Shape s = new Rectangle(api);  
+s.draw();
+
+api = new CanvasAPI();  
+s = new Circle(api);  
+s.draw();  
+}  
+}
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODY1ODQzMzUyLDU4MTAzNTM3NiwxMDMxMj
-IxOTA4LDEzMzQ0MDcxMzYsLTc4MDk3Njk2Niw0NzkwMDc3MDUs
-MTA2NzY3MTI0NSwtMjA1NTA5MDAzMSwxMDI4ODk4NTE0LC01MT
-YyNjAxNCwxNzE0NTY5NzIxLDE0ODc1Nzk2MDUsMzg0Mjc3Mzg4
-XX0=
+eyJoaXN0b3J5IjpbLTc0OTYxNjYzMiw4NjU4NDMzNTIsNTgxMD
+M1Mzc2LDEwMzEyMjE5MDgsMTMzNDQwNzEzNiwtNzgwOTc2OTY2
+LDQ3OTAwNzcwNSwxMDY3NjcxMjQ1LC0yMDU1MDkwMDMxLDEwMj
+g4OTg1MTQsLTUxNjI2MDE0LDE3MTQ1Njk3MjEsMTQ4NzU3OTYw
+NSwzODQyNzczODhdfQ==
 -->
