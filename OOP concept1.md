@@ -287,8 +287,9 @@ Circle ရဲ. draw ရဲ. Rectangle ရဲ. draw မွာသက္ဆုိ�
 Composite Design pattern က Structural pattern တခုပါ။
 
 သူက Tree ပံုစံ Hierarchcy object ေတြကို တည္ေဆာက္ၿပီး သူတုိ.ကုိ same interface နဲ.ထိန္းခ်င္ရင္သံုးပါတယ္။
+အဓိက ကေတာ့ object ေတြဟာ hierarchical structure နဲ.အထဲမွာ တဆင့္ၿခင္းရိွေနမယ္ဆုိရင္ ဒီ pattern နဲ.တည္ေဆာက္ယူလို.ရပါတယ္။
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzNTIxNTEwNywtMTUwNDU3Mzg2Nyw3MD
+eyJoaXN0b3J5IjpbMjA3OTMzMzY5MiwtMTUwNDU3Mzg2Nyw3MD
 k2NzE2OTgsLTc0OTYxNjYzMiw4NjU4NDMzNTIsNTgxMDM1Mzc2
 LDEwMzEyMjE5MDgsMTMzNDQwNzEzNiwtNzgwOTc2OTY2LDQ3OT
 AwNzcwNSwxMDY3NjcxMjQ1LC0yMDU1MDkwMDMxLDEwMjg4OTg1
