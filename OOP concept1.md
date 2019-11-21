@@ -162,11 +162,19 @@ Decouple လုပ္တယ္ဆုိတာ တခုနဲ.တခု ကိ�
 ## Implementation detail ဆုိတာကေတာ့ ဒီ code ကုိ implment လုပ္ဖုိ.အတြက္ ဘယ္ class ဘယ္ method ဆုိတာကို ေခၚတဲ့သူက သိေနရမယ္ ဒီလိုဆုိခ်င္တာပါ။
 
 **Polymorphism** လိုပုံစံမ်ိ္ဳး မွာ 
-Shape s = new CanvasRectangle();  
-s = new SVGRectangle();
+
+    Shape s = new CanvasRectangle();  
+    s = new SVGRectangle();
+
+client က သူသံုးရမဲ့ implemnetation (Canvas လား SVG လားေၿပာၿပီး concrete class) နဲ. create လုပ္ေနရတယ္
+
+**OO Programming မွာ program to interface not to implementation**
+
+implementation class ေတြကို တုိက္ရုိက္ေခၚေနရေတာ့ ေနာင္တခ်ိန္ 3D Drawing API လိုတခုခုေဆာက္မယ္ဆိုရင္ client က သပ္သပ္သိေနရဦးမယ္ ဘယ္ Object ေဆာက္ဆုိတာကို။ client က implementation ကိုမသိပဲေပးေဆာက္ခ်င္ရင္ Bridge Pattern ကုိသံုးလုိ.ရတယ္။
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjM5OTIwMTE3LDEwMzEyMjE5MDgsMTMzND
-QwNzEzNiwtNzgwOTc2OTY2LDQ3OTAwNzcwNSwxMDY3NjcxMjQ1
-LC0yMDU1MDkwMDMxLDEwMjg4OTg1MTQsLTUxNjI2MDE0LDE3MT
-Q1Njk3MjEsMTQ4NzU3OTYwNSwzODQyNzczODhdfQ==
+eyJoaXN0b3J5IjpbLTIxMzYyODk3NywxMDMxMjIxOTA4LDEzMz
+Q0MDcxMzYsLTc4MDk3Njk2Niw0NzkwMDc3MDUsMTA2NzY3MTI0
+NSwtMjA1NTA5MDAzMSwxMDI4ODk4NTE0LC01MTYyNjAxNCwxNz
+E0NTY5NzIxLDE0ODc1Nzk2MDUsMzg0Mjc3Mzg4XX0=
 -->
