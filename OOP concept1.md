@@ -304,18 +304,22 @@ Nested child ေတြ မပါေတာ့တဲ့ object ေတြကို 
 
 #
 
- - Composite ကေတာ့ ViewGroup ပါပဲ။
+ -
+
+# **Composite ကေတာ့ ViewGroup ပါပဲ။**
+
  - သူ.မွာ child element ေတြပါႏုိင္ပါတယ္။ ViewGroup ထဲမွာ View ေတြေရာ   
    ViewGroup ေတြပါ ၾကိဳက္သေလာက္ပါႏုိင္ပါတယ္။
  - ဒီေနရာမွာ Composite မွာ add ရယ္ remove ရယ္ getChild ဆုိတာရယ္ရိွပါတယ္။
    သူတုိ.ကေတာ့ Compositve ထဲကို child element ေတြ ထဲ့ခ်င္တဲ့အခါ ရယ္
    traverse လုပ္ဖုိ.ရယ္သံုးတာပါ။
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTA2MzEwMjI2LC0xNTA0NTczODY3LDcwOT
-Y3MTY5OCwtNzQ5NjE2NjMyLDg2NTg0MzM1Miw1ODEwMzUzNzYs
-MTAzMTIyMTkwOCwxMzM0NDA3MTM2LC03ODA5NzY5NjYsNDc5MD
-A3NzA1LDEwNjc2NzEyNDUsLTIwNTUwOTAwMzEsMTAyODg5ODUx
-NCwtNTE2MjYwMTQsMTcxNDU2OTcyMSwxNDg3NTc5NjA1LDM4ND
-I3NzM4OF19
+eyJoaXN0b3J5IjpbLTE0NDU4ODg5MDEsLTE1MDQ1NzM4NjcsNz
+A5NjcxNjk4LC03NDk2MTY2MzIsODY1ODQzMzUyLDU4MTAzNTM3
+NiwxMDMxMjIxOTA4LDEzMzQ0MDcxMzYsLTc4MDk3Njk2Niw0Nz
+kwMDc3MDUsMTA2NzY3MTI0NSwtMjA1NTA5MDAzMSwxMDI4ODk4
+NTE0LC01MTYyNjAxNCwxNzE0NTY5NzIxLDE0ODc1Nzk2MDUsMz
+g0Mjc3Mzg4XX0=
 -->
