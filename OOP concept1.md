@@ -150,10 +150,15 @@ Bridge Design Pattern ကေတာ့ Structural Patternထဲမွာပါတ
 
 ##  Decouple an abstraction from its implementation so that the two can > vary independently.
 
-Decouple လုပ္တယ္ဆုိတာ တခုနဲ.တခု ကိုအေသခ်ိတ္ထားတာဲ (class တခုမွာ ေနာက္ class တခုကုိပဲသံုးထားတယ္ abstract,interface ကိုမသံုးဘူး ဒါဆုိေနာင္တခ်ိန္မွာ အစားထုိးသံုးလို.မရဘူး။ extend လုပ္ဖုိ.ခက္မယ္, abstract,interface ကိုသာသံုးထားရင္ သူတုိ.က ဆင္းလာတဲ့ေကာင္ေတြနဲ.သံုးလုိ.ရလို. extend ရတာလြယ္မယ္).
+Decouple လုပ္တယ္ဆုိတာ တခုနဲ.တခု ကိုအေသခ်ိတ္ထားတာဲ (class တခုမွာ ေနာက္ class တခုကုိပဲသံုးထားတယ္ 
+
+## abstract,interface ကိုမသံုးဘူး ဒါဆုိေနာင္တခ်ိန္မွာ အစားထုိးသံုးလို.မရဘူး။ extend လုပ္ဖုိ.ခက္မယ္,
+
+## abstract,interface ကိုသာသံုးထားရင္ သူတုိ.က ဆင္းလာတဲ့ေကာင္ေတြနဲ.သံုးလုိ.ရလို. extend ရတာလြယ္မယ္).
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDQ5OTA0NzAsLTc4MDk3Njk2Niw0Nz
-kwMDc3MDUsMTA2NzY3MTI0NSwtMjA1NTA5MDAzMSwxMDI4ODk4
-NTE0LC01MTYyNjAxNCwxNzE0NTY5NzIxLDE0ODc1Nzk2MDUsMz
-g0Mjc3Mzg4XX0=
+eyJoaXN0b3J5IjpbMTMzNDQwNzEzNiwtNzgwOTc2OTY2LDQ3OT
+AwNzcwNSwxMDY3NjcxMjQ1LC0yMDU1MDkwMDMxLDEwMjg4OTg1
+MTQsLTUxNjI2MDE0LDE3MTQ1Njk3MjEsMTQ4NzU3OTYwNSwzOD
+QyNzczODhdfQ==
 -->
