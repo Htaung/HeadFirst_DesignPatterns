@@ -182,14 +182,54 @@ Client ကေတာ့ Circle, Rectangle ဆုိတဲ့ abstraction ေတ�
 
 ## အဲ့ေတာ့ ခုပံုစံအရဆုိရင္ Abstraction ၿဖစ္တဲ့ Rectangle ,Circle နဲ. implementation ၿဖစ္တဲ့ SVGAPI နဲ. CanvasAPI ကုိခြဲထုတ္လုိ.ရပါၿပီ။
 
-Coupling မၿဖစ္ေတာ့ဘူး အဲ့ေတာ့ ေနာက္ထပ္ API တခုထပ္ထဲ့မယ္ဆုိရင္ class hierarchy ေတြမမ်ားပဲ class တခုပဲထဲ့လို.အဆင္ေၿပပါၿပီ။  
+## Coupling မၿဖစ္ေတာ့ဘူ
+
+း အဲ့ေတာ့ ေနာက္ထပ္ API တခုထပ္ထဲ့မယ္ဆုိရင္ class hierarchy ေတြမမ်ားပဲ class တခုပဲထဲ့လို.အဆင္ေၿပပါၿပီ။  
 ေအာက္ကေတာ့ GoF မွာေပးထားတဲ့ Bridge ရဲ. class diagram ပါ။  
 Code ကေတာ့ရွင္းပါတယ္။
 
+public interface DrawingAPI {  
+void drawCircle();  
+void drawRectangle();  
+}
+
+ဒါကေတာ့ DrawingAPI interface ပါ။ သူ.မွာ drawing method ေတြအကုန္ထဲ့ထားပါတယ္။ Different Implementation ေတြကသူ.ကို implement လုပ္ယံုပါပဲ။ ဒီမွာဆုိ SVGApi နဲ. CanvasApi ပါ။
+
+    public class SVGApi implements DrawingAPI{  
+    @Override  
+    public void drawCircle() {  
+    System.out.println("Draw SVG Circle");  
+    }  
+    @Override  
+    public void drawRectangle() {  
+    System.out.println("Draw SVG Rectangle");  
+    }  
+    }  
+    public class CanvasAPI implements DrawingAPI{  
+    @Override  
+    public void drawCircle() {  
+    System.out.println("Draw Canvas Circle");  
+    }  
+    @Override  
+    public void drawRectangle() {  
+    System.out.println("Draw Canvas Rectangle");  
+    }  
+    }  
+    SVGApi နဲ. CanvasAPI ၂ခုဟာ DrawingAPI ရဲ. different implementation ေတြပါ။ ဒါကေတာ့ implementation class ေတြပါ။ Abstraction class ေတြကေတာ့ဒီလိုပါ။
+    
+    abstract class Shape {  
+    DrawingAPI api; //Here just use interface class  
+    Shape(DrawingAPI api)  
+    {  
+    this.api = api;  
+    }  
+    abstract void draw();  
+    }
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjQ1OTkzMDAsNTgxMDM1Mzc2LDEwMz
-EyMjE5MDgsMTMzNDQwNzEzNiwtNzgwOTc2OTY2LDQ3OTAwNzcw
-NSwxMDY3NjcxMjQ1LC0yMDU1MDkwMDMxLDEwMjg4OTg1MTQsLT
-UxNjI2MDE0LDE3MTQ1Njk3MjEsMTQ4NzU3OTYwNSwzODQyNzcz
-ODhdfQ==
+eyJoaXN0b3J5IjpbODY1ODQzMzUyLDU4MTAzNTM3NiwxMDMxMj
+IxOTA4LDEzMzQ0MDcxMzYsLTc4MDk3Njk2Niw0NzkwMDc3MDUs
+MTA2NzY3MTI0NSwtMjA1NTA5MDAzMSwxMDI4ODk4NTE0LC01MT
+YyNjAxNCwxNzE0NTY5NzIxLDE0ODc1Nzk2MDUsMzg0Mjc3Mzg4
+XX0=
 -->
