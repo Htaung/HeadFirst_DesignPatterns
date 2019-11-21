@@ -279,10 +279,16 @@ Circle ရဲ. draw ရဲ. Rectangle ရဲ. draw မွာသက္ဆုိ�
 
 ## implementation အေပၚ client code က မမီွခုိတဲ့အတြက္ ေနာက္ **implementation class API** ေတြထပ္ထဲ့ရင္လြယ္မယ္ေပါ့
 
+
+## [https://web.facebook.com/groups/programmingchannel/permalink/1587618718199954/]
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDQ1NzM4NjcsNzA5NjcxNjk4LC03ND
-k2MTY2MzIsODY1ODQzMzUyLDU4MTAzNTM3NiwxMDMxMjIxOTA4
-LDEzMzQ0MDcxMzYsLTc4MDk3Njk2Niw0NzkwMDc3MDUsMTA2Nz
-Y3MTI0NSwtMjA1NTA5MDAzMSwxMDI4ODk4NTE0LC01MTYyNjAx
-NCwxNzE0NTY5NzIxLDE0ODc1Nzk2MDUsMzg0Mjc3Mzg4XX0=
+eyJoaXN0b3J5IjpbMTk5NDc0MjkwMCwtMTUwNDU3Mzg2Nyw3MD
+k2NzE2OTgsLTc0OTYxNjYzMiw4NjU4NDMzNTIsNTgxMDM1Mzc2
+LDEwMzEyMjE5MDgsMTMzNDQwNzEzNiwtNzgwOTc2OTY2LDQ3OT
+AwNzcwNSwxMDY3NjcxMjQ1LC0yMDU1MDkwMDMxLDEwMjg4OTg1
+MTQsLTUxNjI2MDE0LDE3MTQ1Njk3MjEsMTQ4NzU3OTYwNSwzOD
+QyNzczODhdfQ==
 -->
