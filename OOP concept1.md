@@ -295,11 +295,15 @@ Intent
 ## Object ေတြကို tree structure အေနနဲ. တည္ေဆာက္ၿပီး ေဆာက္ထားတဲ့ object ေတြကို uniformly treat လုပ္ခ်င္တာပါ။
 
 individual ရယ္ Composite ရယ္မခြဲပဲ သံုးလို.ရခ်င္တယ္ သံုးခ်င္တယ္ဆုိတဲ့ အဓိပၸာယ္ပါ။
+
+Component ကေတာ့ အားလံုးသံုးမဲ့ (Leaft, Composite) ကေနသံုးမဲ့ operation ေတြစုထားတာပါ။
+
+Nested child ေတြ မပါေတာ့တဲ့ object ေတြကို leaf လို.သတ္မွတ္ရမွာပါ။
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzI5NTExMjQ5LC0xNTA0NTczODY3LDcwOT
-Y3MTY5OCwtNzQ5NjE2NjMyLDg2NTg0MzM1Miw1ODEwMzUzNzYs
-MTAzMTIyMTkwOCwxMzM0NDA3MTM2LC03ODA5NzY5NjYsNDc5MD
-A3NzA1LDEwNjc2NzEyNDUsLTIwNTUwOTAwMzEsMTAyODg5ODUx
-NCwtNTE2MjYwMTQsMTcxNDU2OTcyMSwxNDg3NTc5NjA1LDM4ND
-I3NzM4OF19
+eyJoaXN0b3J5IjpbMTcyNzIwMjc3NywtMTUwNDU3Mzg2Nyw3MD
+k2NzE2OTgsLTc0OTYxNjYzMiw4NjU4NDMzNTIsNTgxMDM1Mzc2
+LDEwMzEyMjE5MDgsMTMzNDQwNzEzNiwtNzgwOTc2OTY2LDQ3OT
+AwNzcwNSwxMDY3NjcxMjQ1LC0yMDU1MDkwMDMxLDEwMjg4OTg1
+MTQsLTUxNjI2MDE0LDE3MTQ1Njk3MjEsMTQ4NzU3OTYwNSwzOD
+QyNzczODhdfQ==
 -->
